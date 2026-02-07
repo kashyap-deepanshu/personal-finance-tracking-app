@@ -1,0 +1,21 @@
+import React from 'react'
+import { useNavigate } from 'react-router-dom'
+
+const ActionButtons = () => {
+    const navigate = useNavigate()
+    return (
+        <div className='flex gap-4 justify-center pb-10'>
+            <button className="px-6 py-3 rounded-lg bg-blue-600 text-white font-medium hover:bg-blue-700 transition"
+            onClick={() => navigate('/login')}>
+                Login
+            </button>
+
+            <button className="px-6 py-3 rounded-lg border border-gray-300 text-gray-700 hover:bg-gray-100 transition"
+            onClick={() => navigate('/upload')}>
+                Track Your Expenses
+            </button>
+        </div>
+    )
+}
+
+export default ActionButtons
