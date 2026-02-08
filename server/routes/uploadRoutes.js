@@ -4,7 +4,7 @@ const path = require("path");
 const fs = require("fs");
 const pdfParse = require("pdf-parse");
 const router = express.Router();
-const extractTransactions =require("../services/extractTransaction");
+const extractTransactions = require("../services/extractTransaction");
 const generateSummary = require("../services/generateSummary");
 
 const storage = multer.diskStorage({
@@ -41,23 +41,23 @@ router.post("/", upload.single("file"), async (req, res) => {
     console.log(pdfData.text.length);
     console.log(" After pdfParse");
     const transactions = extractTransactions(pdfData.text);
-    
-    // fs.writeFileSync("write-ptm.txt", pdfData.text, "utf-8");
-    // fs.writeFileSync(
-    //   "write-transaction-1-ptm.txt",
-    //   transactions.join("\n"),
-    //     // transactions,
-    //   "utf-8"
-    // );
+
+    fs.writeFileSync("write-ptm.txt", pdfData.text, "utf-8");
+    fs.writeFileSync(
+      "write-transaction-1-ptm.txt",
+      transactions.join("\n"),
+        // transactions,
+      "utf-8"
+    );
+
     const transactionSummary = generateSummary(transactions) //external function
     console.log(transactionSummary);
-    
 
     res.status(200).json({
       success: true,
       message: "PDF parsed successfully",
       transactionSummary
-        }); 
+    });
   } catch (error) {
     console.error(" Pdf parse Error:", error);
     // console.log("error occured");

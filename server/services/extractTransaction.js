@@ -1,9 +1,17 @@
 const extractPdfData = require("./extractPdfData");
+const removeNoteBlock = require("./removeNoteBlock");
 
 const extractTransactions = (text) => {
     console.log("extract transaction function running");
 
-    const lines = text.split("\n");
+    const linesWithNotes = text.split("\n");
+    console.log(linesWithNotes);
+    console.log("======================================");
+    
+    
+    const lines = removeNoteBlock(linesWithNotes)
+    console.log(lines);
+    
     const transactions = [];
     console.log(lines.length);
     console.log("extract transaction function ends");
@@ -24,6 +32,12 @@ const extractTransactions = (text) => {
             transactions.push(line);
         }
     });
+    // console.log("transaction print start");
+    
+    // console.log(transactions);
+    //     console.log("transaction print end");
+
+    
     const paymentsData = extractPdfData(transactions)
     
     return paymentsData;
