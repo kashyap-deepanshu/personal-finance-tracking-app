@@ -20,19 +20,6 @@ const extractTransactions = (text) => {
             console.log("Header found at:", index);
             startingIndex = index;
         }
-
-        // // detect table end
-        // if (startingIndex !== -1 && word.includes("end of statement")) {
-        //     console.log("End found at:", index);
-        //     endingIndex = index;
-        //     return;
-        // }
-
-        // // push only actual transactions
-        // if (startingIndex !== -1 && index > startingIndex && index < endingIndex) {
-        //     transactions.push(line);
-        // }
-
         if (startingIndex !== -1 && index > startingIndex) {
             transactions.push(line);
         }
