@@ -1,16 +1,13 @@
 const extractPdfData = require("./extractPdfData");
+const findRawData = require("./findRawData");
 const removeNoteBlock = require("./removeNoteBlock");
 
 const extractTransactions = (text) => {
     console.log("extract transaction function running");
 
     const linesWithNotes = text.split("\n");
-    console.log(linesWithNotes);
-    console.log("======================================");
-    
-    
+
     const lines = removeNoteBlock(linesWithNotes)
-    console.log(lines);
     
     const transactions = [];
     console.log(lines.length);
@@ -18,8 +15,6 @@ const extractTransactions = (text) => {
     // fs.writeFileSync("write-transaction.txt", lines.join("\n"), "utf-8")
 
     let startingIndex = -1;
-    let endingIndex = lines.length;
-
     lines.forEach((line, index) => {
         const word = line.toLowerCase();
 
@@ -32,13 +27,11 @@ const extractTransactions = (text) => {
             transactions.push(line);
         }
     });
-    // console.log("transaction print start");
-    
-    // console.log(transactions);
-    //     console.log("transaction print end");
 
-    
-    const paymentsData = extractPdfData(transactions)
+    const rawData = findRawData(transactions)
+    // console.log(rawData);
+    const paymentsData = extractPdfData(rawData)
+
     
     return paymentsData;
 };

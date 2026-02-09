@@ -9,8 +9,10 @@ const generateSummary = (transactions) => {
         // income vs expense
         if (amount > 0) {
             totalIncome += amount;
+            totalIncome =Number(totalIncome.toFixed(2))
         } else {
             totalExpense += Math.abs(amount);
+            totalExpense =Number(totalExpense.toFixed(2))
         }
 
         // determine category
@@ -21,7 +23,7 @@ const generateSummary = (transactions) => {
         }
 
         if (!category) {
-            category = "Others";
+            category = "Miscellaneous";
         }
 
         // 🔹 remove spaces from key
@@ -32,7 +34,11 @@ const generateSummary = (transactions) => {
             categoryTotals[category] = 0;
         }
 
-        categoryTotals[category] += Math.abs(amount);
+        // categoryTotals[category] += Math.abs(amount);
+        categoryTotals[category] = Number(
+    (categoryTotals[category] + Math.abs(amount)).toFixed(2)
+);
+
     }
 
     const savings = totalIncome - totalExpense;

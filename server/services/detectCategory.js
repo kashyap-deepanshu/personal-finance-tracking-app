@@ -1,10 +1,8 @@
-const detectCategory = (descriptionArray) => {
-    const categoryArray = [];
-
+const detectCategory = (descriptionText) => {
     const categoryRules = {
         Food: ["swiggy", "zomato", "restaurant", "cafe", "food"],
         Groceries: ["grocery", "kirana", "dairy", "milk", "vegetable", "mart"],
-        Travel: ["uber", "ola", "metro", "petrol", "fuel", "irctc","rapido"],
+        Travel: ["uber", "ola", "metro", "petrol", "fuel", "irctc", "rapido"],
         Shopping: ["amazon", "flipkart", "myntra", "store", "mall", "zepto", "blinkit"],
         Bills: ["electricity", "recharge", "bill", "wifi", "broadband"],
         Medical: ["medical", "medico", "pharmacy", "hospital", "clinic", "medicine"],
@@ -12,30 +10,25 @@ const detectCategory = (descriptionArray) => {
         Entertainment: ["movie", "cinema", "netflix", "prime", "hotstar", "game"],
         Rent: ["rent", "landlord"],
         Finance: ["emi", "loan", "credit card", "insurance", "investment"],
-        Transfer: ["sent to", "received from", "upi transfer"],
+        Transfer: ["sent to", "received from", "paid to"],
         Cashback: ["cashback", "reward", "bonus"],
         Income: ["salary", "credit", "refund", "interest"],
     };
 
-    for (const descriptionText of descriptionArray) {
-        const description = descriptionText.toLowerCase();
-        let foundCategory = null; // default category
+    if (!descriptionText) return null;
 
-        for (const [category, keywords] of Object.entries(categoryRules)) {
-            const isMatch = keywords.some(word =>
-                description.includes(word.toLowerCase())
-            );
+    // normalize description
+    const description = String(descriptionText).toLowerCase().trim();
 
-            if (isMatch) {
-                foundCategory = category;
-                break;
+    for (const [category, keywords] of Object.entries(categoryRules)) {
+        for (const word of keywords) {
+            if (description.includes(word.toLowerCase())) {
+                return category;
             }
         }
-
-        categoryArray.push(foundCategory);
     }
 
-    return categoryArray;
+    return null;
 };
 
 module.exports = detectCategory;

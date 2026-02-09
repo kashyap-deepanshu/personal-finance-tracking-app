@@ -8,12 +8,6 @@ const extractDate = (data) => {
     return match ? match[0] : null;
 };
 
-const extractTag = (data) => {
-    const tagRegex = /#.*?([A-Za-z][^\s#]*(?:\s+[^\s#]+){0,19})/;
-    const match = data.match(tagRegex);
-    return match ? match[1].trim() : null;
-};
-
 const extractAmount = (data) => {
     const amountRegex = /([+-])\s*Rs\.?\s*([\d,]+(?:\.\d+)?)/i;
     const match = data.match(amountRegex);
@@ -28,90 +22,59 @@ const extractAmount = (data) => {
     return sign === "-" ? -amount : amount;
 };
 
-
 const extractTime = (data) => {
-    const timeRegex = /\b(1[0-2]|[1-9]):([0-5][0-9])\s(AM|PM)\b/g;
+    const timeRegex = /\b(1[0-2]|[1-9]):([0-5][0-9]) (AM|PM)\b/;
     const match = data.match(timeRegex);
+    // match? console.log(match[0]):console.log("not find");
+
     return match ? match[0] : null;
 };
 
+const extractTag = (data) => {
+    const tagRegex = /#.*?([A-Za-z][^\s#]*(?:\s+[^\s#]+){0,19})/;
+    const match = data.match(tagRegex);
+    return match ? match[1].trim() : null;
+};
 const extractDescriptionIndex = (data, index) => {
     const timeRegex = /\b(1[0-2]|[1-9]):([0-5][0-9])\s(AM|PM)\b/g; // using timeRegex to findIndex
     const match = data.match(timeRegex);
     return match ? index + 1 : null;
 }
 // main function
-const extractPdfData = (transactions) => {
+const extractPdfData = (rawData) => {
     let paymentsData = [];
-    let tagArray = [];
-    let dateArray = [];
-    let amountArray = [];
-    let timeArray = [];
-    let descriptionIndexArray = [];
-    let descriptionArray = [];
-    let categoryArray = null;
 
-    transactions.forEach((data, index) => {
-        const tag = extractTag(data);
-        const date = extractDate(data);
-        const amount = extractAmount(data);
-        const time = extractTime(data);
-        const descriptionIndex = extractDescriptionIndex(data, index)
+    rawData.map((dataBlock) => {
+        let tag = null
+        let date = null
+        let amount = null
+        let time = null
+        let desIndex = null
+        dataBlock.map((data, index) => {
+            tag = tag ? tag : extractTag(data);
+            date = date ? date : extractDate(data);
+            amount =amount?amount: extractAmount(data);
+            time = extractTime(data) ? extractTime(data) : time;
+            desIndex =desIndex?desIndex: extractDescriptionIndex(data, index)
+        })
 
-        if (tag) {
-            tagArray.push(tag)
+        let description = dataBlock[desIndex];
+        let category = null
+        if (description) {
+            category = detectCategory(description.toLowerCase())
         }
-
-        if (date) {
-            dateArray.push(date)
+        let paymentsDetail = {
+            tag: tag ? tag : null,
+            date: date,
+            amount: amount,
+            time: time,
+            category: category,
+            description: description
         }
-        if (amount) {
-            amountArray.push(amount)
-        }
-        if (time) {
-            timeArray.push(time);
-        }
-        if (descriptionIndex) {
-            descriptionIndexArray.push(descriptionIndex);
-        }
-
-    });
-
-    descriptionIndexArray.map((data) => {
-        descriptionArray.push(transactions[data]);
+        paymentsData.push(paymentsDetail)
     })
-
-    if (descriptionArray) {
-        categoryArray = detectCategory(descriptionArray) //calling detect category function 
-    }
-
-    if (tagArray.length == dateArray.length && tagArray.length == dateArray.length && 
-        dateArray.length == amountArray.length) 
-        {
-        for (let index = 0; index < tagArray.length; index++) {
-            paymentsData.push({
-                date: dateArray[index],
-                tag: tagArray[index],
-                amount: amountArray[index],
-                time: timeArray[index],
-                description: descriptionArray[index],
-                category : categoryArray[index]
-            })
-        }
-        // console.log(amountArray.length);
-        // console.log(tagArray.length);
-        // console.log(dateArray.length);
-    }
-
-    // if (paymentsData) {
-
-    // }
-    // if (categoryArray) {
-    //     console.log(categoryArray.length);
-    //     console.log(dateArray.length);
-        
-        
-    // }
+    // console.log(paymentsData[0]);
+    
 
     return paymentsData;
 };
