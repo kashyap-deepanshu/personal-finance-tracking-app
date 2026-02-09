@@ -7,13 +7,15 @@ import axios from "axios";
 
 
 const UploadPage = () => {
+  const [summary, setSummary] = useState(null)
   const [loading, setLoading] = useState(false)
   const [file, setFile] = useState(null)
+  const [error, setError] = useState("    ")
   const navigate = useNavigate();
 
   const handleAnalyze = async () => {
     if (!file) {
-      alert("Please select a file first");
+      setError("Please select a file first.");
       return;
     }
 
@@ -22,18 +24,20 @@ const UploadPage = () => {
 
     try {
       setLoading(true);
-
+      setError("")
       const response = await axios.post(
         "http://localhost:5000/upload",
         formData
       );
+      // console.log("Backend Summary - ",response.data);
+      setSummary(response.data)
+      navigate('/dashboard',{state:{summary:response.data}})
 
-      // console.log("Backend response:", response.data);
-      alert("File uploaded successfully");
+      // alert("File uploaded successfully");
 
     } catch (error) {
       console.error("Upload error:", error);
-      alert("Upload failed");
+      setError("Upload failed. Please try again.");
     } finally {
       setLoading(false);
     }
@@ -46,8 +50,21 @@ const UploadPage = () => {
           Upload Bank Statement
         </h2>
 
-        <UploadBox onFileSelect={setFile} /> {/* yha hmne setFile ko onFileSelct ke name se child mai pass kra hai */}
+        <UploadBox onFileSelect={setFile} setError={setError} /> {/* yha hmne setFile ko onFileSelct ke name se child mai pass kra hai */}
         <PrivacyNote />
+
+        {file && (
+          <p className="text-sm text-gray-600 mb-2">
+            Selected: {file.name}
+          </p>
+        )}
+
+        {error && (
+          <p className="text-red-500 text-sm mb-4">
+            {error}
+          </p>
+        )}
+        
         <button onClick={handleAnalyze}
           className="mt-6 w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 disabled:opacity-50"
           disabled={loading}

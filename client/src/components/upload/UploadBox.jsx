@@ -1,9 +1,9 @@
 import { ArrowUpTrayIcon } from "@heroicons/react/24/outline";
 import { useState } from "react";
 
-const UploadBox = ({onFileSelect}) => {
+const UploadBox = ({onFileSelect,setError}) => {
 
-            const [fileName, setFileName] = useState('')
+            const [fileName, setFileName] = useState('') 
 
     const handleFileChange=(e)=>{
         const file = e.target.files[0];
@@ -11,6 +11,7 @@ const UploadBox = ({onFileSelect}) => {
 
         setFileName(file.name)
         onFileSelect(file)
+        setError("")
     }
 
     return (
