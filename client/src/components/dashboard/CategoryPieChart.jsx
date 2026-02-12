@@ -40,7 +40,7 @@ function CategoryPieChart({ data = [] }) {
     const sortedData = mainData.sort((a, b) => b.value - a.value);
 
     return (
-        <div className="bg-white rounded-2xl shadow p-6">
+        <>
             {/* Header */}
             <div className="flex justify-between items-center mb-4">
                 <h2 className="text-lg font-semibold text-gray-800">
@@ -63,7 +63,8 @@ function CategoryPieChart({ data = [] }) {
                         nameKey="name"
                         innerRadius={isDonut ? 90 : 0}
                         outerRadius={140}
-                        labelLine={false}
+                        labelLine={true}
+                        label
                     >
                         {sortedData.map((entry, index) => (
                             <Cell
@@ -111,7 +112,7 @@ function CategoryPieChart({ data = [] }) {
                     />
                 </PieChart>
             </ResponsiveContainer>
-        </div>
+        </>
     );
 }
 

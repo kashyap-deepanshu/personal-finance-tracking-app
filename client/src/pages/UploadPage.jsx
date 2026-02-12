@@ -10,14 +10,35 @@ const UploadPage = () => {
   const [summary, setSummary] = useState(null)
   const [loading, setLoading] = useState(false)
   const [file, setFile] = useState(null)
-  const [error, setError] = useState("    ")
+  const [error, setError] = useState(" ")
   const navigate = useNavigate();
+  const MAX_FILE_SIZE = 5 * 1024 * 1024; // 5MB
+
+   // VALIDATE FILE
+   const validateFile = (selectedFile) => {
+  if (!selectedFile) return false;
+
+  if (selectedFile.type !== "application/pdf") {
+    setError("Only PDF files are allowed.");
+    return false;
+  }
+
+  if (selectedFile.size > MAX_FILE_SIZE) {
+    setError("File size must be less than 5MB.");
+    return false;
+  }
+
+  return true;
+};
+
 
   const handleAnalyze = async () => {
     if (!file) {
       setError("Please select a file first.");
       return;
     }
+
+   
 
     const formData = new FormData();
     formData.append("file", file); //  fieldname MUST be "file"
@@ -31,7 +52,7 @@ const UploadPage = () => {
       );
       // console.log("Backend Summary - ",response.data);
       setSummary(response.data)
-      navigate('/dashboard',{state:{summary:response.data}})
+      navigate('/dashboard', { state: { summary: response.data } })
 
       // alert("File uploaded successfully");
 
@@ -50,13 +71,21 @@ const UploadPage = () => {
           Upload Bank Statement
         </h2>
 
-        <UploadBox onFileSelect={setFile} setError={setError} /> {/* yha hmne setFile ko onFileSelct ke name se child mai pass kra hai */}
+        <UploadBox onFileSelect={setFile} file={file} setError={setError} validateFile={validateFile} /> {/* yha hmne setFile ko onFileSelct ke name se child mai pass kra hai */}
         <PrivacyNote />
 
         {file && (
-          <p className="text-sm text-gray-600 mb-2">
-            Selected: {file.name}
-          </p>
+          <div className="bg-gray-100 p-3 rounded-lg mb-4 flex justify-between items-center">
+            <span className="text-sm text-gray-700 truncate">
+              {file.name}
+            </span>
+            <button
+              onClick={() => setFile(null)}
+              className="text-red-500 text-sm hover:underline"
+            >
+              Remove
+            </button>
+          </div>
         )}
 
         {error && (
@@ -64,7 +93,7 @@ const UploadPage = () => {
             {error}
           </p>
         )}
-        
+
         <button onClick={handleAnalyze}
           className="mt-6 w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 disabled:opacity-50"
           disabled={loading}

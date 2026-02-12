@@ -1,21 +1,64 @@
 import { ArrowUpTrayIcon } from "@heroicons/react/24/outline";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
-const UploadBox = ({onFileSelect,setError}) => {
+const UploadBox = ({ onFileSelect, setError, file, validateFile }) => {
+    const [dragActive, setDragActive] = useState(false);
+    const [fileName, setFileName] = useState("");
 
-            const [fileName, setFileName] = useState('') 
+    // DRAG EVENTS
+    const handleDragOver = (e) => {
+        e.preventDefault();
+        setDragActive(true);
+    };
 
-    const handleFileChange=(e)=>{
-        const file = e.target.files[0];
-        if(!file) return // agr file present nhe hue to function ruk jayega
+    const handleDragLeave = () => {
+        setDragActive(false);
+    };
 
-        setFileName(file.name)
-        onFileSelect(file)
-        setError("")
-    }
+    const handleDrop = (e) => {
+        e.preventDefault();
+        setDragActive(false);
+        setError("");
+
+        const droppedFile = e.dataTransfer.files[0];
+
+        if (validateFile(droppedFile)) {
+            setFileName(droppedFile.name);
+            onFileSelect(droppedFile);
+        }
+    };
+
+    // FILE PICKER
+    const handleFileChange = (e) => {
+        const selectedFile = e.target.files[0];
+        if (!selectedFile) return;
+
+        setError("");
+
+        if (validateFile(selectedFile)) {
+            setFileName(selectedFile.name);
+            onFileSelect(selectedFile);
+        }
+    };
+
+    // Reset filename if parent clears file
+    useEffect(() => {
+        if (!file) {
+            setFileName("");
+        }
+    }, [file]);
 
     return (
-        <div className="mt-6 border-2 border-dashed border-gray-300 rounded-lg p-6 text-center">
+        <div
+            onDragOver={handleDragOver}
+            onDragLeave={handleDragLeave}
+            onDrop={handleDrop}
+            className={`mt-6 border-2 border-dashed rounded-xl p-8 text-center transition cursor-pointer
+        ${dragActive
+                    ? "border-indigo-500 bg-indigo-50"
+                    : "border-gray-300 bg-gray-50"
+                }`}
+        >
             <input
                 type="file"
                 accept=".pdf,.xlsx"
@@ -26,16 +69,16 @@ const UploadBox = ({onFileSelect,setError}) => {
 
             <label
                 htmlFor="fileUpload"
-                className="cursor-pointer flex flex-col items-center gap-3"
+                className="flex flex-col items-center gap-3 cursor-pointer"
             >
-                <ArrowUpTrayIcon className="w-12 h-12 text-blue-600" />
+                <ArrowUpTrayIcon className="w-12 h-12 text-indigo-600" />
 
                 <p className="text-gray-700 font-medium">
-                    {fileName? fileName : "Upload PDF or Excel file"}
+                    {fileName ? fileName : "Drag & Drop your file here"}
                 </p>
 
                 <p className="text-sm text-gray-500">
-                    Supported formats: PDF, XLSX
+                    or click to browse (PDF / XLSX)
                 </p>
             </label>
         </div>

@@ -1,6 +1,6 @@
 
 const CategorySection = ({ data }) => {
-    const categoryList = Object.entries(data.categoryTotals || {})
+    const categoryList = Object.entries(data.categoryTotals || {}) 
         .sort((a, b) => b[1] - a[1]);
 
     // Category colors
@@ -8,7 +8,7 @@ const CategorySection = ({ data }) => {
         transfer: "bg-red-500",
         Shopping: "bg-purple-500",
         Transport: "bg-yellow-500",
-        Bills: "bg-blue-500",
+        Bills: "bg-blue-500", 
         Entertainment: "bg-pink-500",
         Others: "bg-gray-500",
     };

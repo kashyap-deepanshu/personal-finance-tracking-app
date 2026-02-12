@@ -1,6 +1,6 @@
 import CountUp from "react-countup";
 
-const SummaryCards = ({data}) => {
+const SummaryCards = ({ data }) => {
     return (
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
             {/* Income */}
@@ -20,7 +20,7 @@ const SummaryCards = ({data}) => {
             <div className="bg-white/80 backdrop-blur p-6 rounded-2xl shadow-md transition-all duration-300 hover:-translate-y-1 hover:shadow-xl flex items-center justify-between">
                 <div>
                     <p className="text-sm text-gray-500 mb-2">Total Expense</p>
-                    <p className="text-3xl font-bold text-red-500">
+                    <p className="text-3xl font-bold text-teal-600">
                         ₹<CountUp end={data.totalExpense} duration={1.2} />
                     </p>
                 </div>
@@ -33,7 +33,7 @@ const SummaryCards = ({data}) => {
             <div className="bg-white/80 backdrop-blur p-6 rounded-2xl shadow-md transition-all duration-300 hover:-translate-y-1 hover:shadow-xl flex items-center justify-between">
                 <div>
                     <p className="text-sm text-gray-500 mb-2">Savings</p>
-                    <p className="text-3xl font-bold text-blue-600">
+                    <p className={` text-3xl font-bold ${data.savings >= 0 ? "text-blue-600" : "text-red-600" }`}>
                         ₹<CountUp end={data.savings} duration={1.2} />
                     </p>
                 </div>
