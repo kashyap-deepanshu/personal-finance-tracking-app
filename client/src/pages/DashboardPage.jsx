@@ -9,7 +9,7 @@ import { useState } from "react";
 function Dashboard() {
   const location = useLocation();
   const summary = location.state?.summary;
-  const data = summary?.transactionSummary;
+  const data = summary?.overallSummary;
   const [showVisual, setShowVisual] = useState(false);
 
   if (!summary) {

@@ -39,6 +39,9 @@ const Header = ({data}) => {
                 <p className="text-gray-500">
                     Here’s your financial overview
                 </p>
+                <p className="text-gray-500 font-semibold text-sm">
+                    {data.financialYear}
+                </p>
             </div>
 
             <div className="flex gap-3">

@@ -12,7 +12,7 @@ const extractAmount = (data) => {
     return sign === "-" ? -amount : amount;
 };
 
-const findRawData = (transactions,financialYear) => {
+const findRawData = (transactions) => {
     const rawDataArray = [];
     let temp = [];
 

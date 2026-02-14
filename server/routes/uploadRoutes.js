@@ -6,6 +6,7 @@ const pdfParse = require("pdf-parse");
 const router = express.Router();
 const extractTransactions = require("../services/extractTransaction");
 const generateSummary = require("../services/generateSummary");
+const groupByMonth = require("../utils/groupByMonth");
 // const { parseDateRange } = require("../utils/dateParser");
 
 const storage = multer.diskStorage({
@@ -41,7 +42,7 @@ router.post("/", upload.single("file"), async (req, res) => {
 
     console.log(pdfData.text.length);
     console.log(" After pdfParse");
-    const {paymentsData,pdfDate} = extractTransactions(pdfData.text);    
+    const { paymentsData, pdfDate } = extractTransactions(pdfData.text);
 
     fs.writeFileSync(`${req.file.originalname}.txt`, pdfData.text, "utf-8");
     // fs.writeFileSync(
@@ -54,18 +55,29 @@ router.post("/", upload.single("file"), async (req, res) => {
 
     fs.writeFileSync("transactions.json", JSON.stringify(paymentsData, null, 2),
       "utf-8")
+  
 
-    let transactionSummary = generateSummary(paymentsData) //external function
+    let overallSummary = generateSummary(paymentsData) //external function
+    overallSummary={...pdfDate, ...overallSummary}
 
-    transactionSummary ={...pdfDate, ...transactionSummary  }
+    //monthly summary
+      const monthlyGroupedTransactions = groupByMonth(paymentsData);
+    // console.log(Object.keys(monthlyGroupedTransactions));
+    let monthlySummary = {};
+    Object.keys(monthlyGroupedTransactions).forEach((monthKey) => {
+      const transactions = monthlyGroupedTransactions[monthKey];
 
-    // console.log(transactionSummary);
+      monthlySummary[monthKey] = generateSummary(transactions);
+    });
+
+        // transactionSummary = { ...pdfDate, ...transactionSummary ,monthlySummary }
+
     
-
     res.status(200).json({
       success: true,
       message: "PDF parsed successfully",
-      transactionSummary
+      overallSummary,
+      monthlySummary
     });
   } catch (error) {
     console.error(" Pdf parse Error:", error);

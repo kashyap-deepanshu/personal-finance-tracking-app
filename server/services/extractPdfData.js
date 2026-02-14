@@ -26,7 +26,7 @@ const extractAmount = (data) => {
 
 const extractTime = (data) => {
     const timeRegex = /\b(1[0-2]|[1-9]):([0-5][0-9]) (AM|PM)\b/;
-    const match = data.match(timeRegex);
+    const match = data.match(timeRegex); 
     // match? console.log(match[0]):console.log("not find");
 
     return match ? match[0] : null;
@@ -44,14 +44,14 @@ const extractDescriptionIndex = (data, index) => {
 }
 // main function
 const extractPdfData = (rawData, financialYear) => {
-    const { startingDate, endingDate } = parseDateRange(financialYear)
+    const { startingDate, endingDate } = parseDateRange(financialYear) || {}
     let changeYear = false;
 
     const pdfDate = {
         financialYear: financialYear,
         startingDate: startingDate,
-        endingDate: endingDate
-    }
+        endingDate: endingDate  || new Date()
+    } ||{}
     let endingyear = pdfDate.endingDate.getFullYear()
 
     let paymentsData = [];

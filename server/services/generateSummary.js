@@ -2,8 +2,14 @@ const generateSummary = (transactions) => {
     let totalIncome = 0;
     let totalExpense = 0;
     const categoryTotals = {};
+    let transactionYears=[];
 
     for (const txn of transactions) {
+        //get transactions year
+        if (!transactionYears.includes(txn.date.getFullYear())) {
+            transactionYears.push(txn.date.getFullYear())
+        }
+
         const amount = txn.amount;
 
         // income vs expense
@@ -44,6 +50,7 @@ const generateSummary = (transactions) => {
     const savings = totalIncome - totalExpense;
 
     return {
+        transactionYears,
         totalIncome,
         totalExpense,
         savings,
