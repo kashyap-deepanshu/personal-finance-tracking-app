@@ -1,6 +1,8 @@
 // helper functions
 
 const detectCategory = require("./detectCategory");
+const { parseDateRange, getMonthNumber, convertToISO } = require("../utils/dateParser");
+
 
 const extractDate = (data) => {
     const dateRegex = /\b\d{2}\s(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\b/;
@@ -41,7 +43,17 @@ const extractDescriptionIndex = (data, index) => {
     return match ? index + 1 : null;
 }
 // main function
-const extractPdfData = (rawData) => {
+const extractPdfData = (rawData, financialYear) => {
+    const { startingDate, endingDate } = parseDateRange(financialYear)
+    let changeYear = false;
+
+    const pdfDate = {
+        financialYear: financialYear,
+        startingDate: startingDate,
+        endingDate: endingDate
+    }
+    let endingyear = pdfDate.endingDate.getFullYear()
+
     let paymentsData = [];
 
     rawData.map((dataBlock) => {
@@ -53,9 +65,9 @@ const extractPdfData = (rawData) => {
         dataBlock.map((data, index) => {
             tag = tag ? tag : extractTag(data);
             date = date ? date : extractDate(data);
-            amount =amount?amount: extractAmount(data);
+            amount = amount ? amount : extractAmount(data);
             time = extractTime(data) ? extractTime(data) : time;
-            desIndex =desIndex?desIndex: extractDescriptionIndex(data, index)
+            desIndex = desIndex ? desIndex : extractDescriptionIndex(data, index)
         })
 
         let description = dataBlock[desIndex];
@@ -63,9 +75,29 @@ const extractPdfData = (rawData) => {
         if (description) {
             category = detectCategory(description.toLowerCase())
         }
+        // modify date add year and convert it into ISO date format
+        let currentMonthNumber = getMonthNumber(date);;
+        let dateWithYear = null;
+
+        if (currentMonthNumber === 12) {
+            if (changeYear) {
+                endingyear = endingyear - 1;
+                changeYear = false;
+                dateWithYear = `${date} ${endingyear}`;
+            } else {
+                dateWithYear = `${date} ${endingyear}`;
+
+            }
+        }
+        if (currentMonthNumber !== 12) {
+            changeYear = true;
+            dateWithYear = `${date} ${endingyear}`;
+
+        }
+
         let paymentsDetail = {
             tag: tag ? tag : null,
-            date: date,
+            date:convertToISO(dateWithYear) ,
             amount: amount,
             time: time,
             category: category,
@@ -74,9 +106,9 @@ const extractPdfData = (rawData) => {
         paymentsData.push(paymentsDetail)
     })
     // console.log(paymentsData[0]);
-    
 
-    return paymentsData;
+
+    return { paymentsData, pdfDate };
 };
 
 module.exports = extractPdfData;

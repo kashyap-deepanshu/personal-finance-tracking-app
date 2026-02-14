@@ -6,6 +6,7 @@ const pdfParse = require("pdf-parse");
 const router = express.Router();
 const extractTransactions = require("../services/extractTransaction");
 const generateSummary = require("../services/generateSummary");
+// const { parseDateRange } = require("../utils/dateParser");
 
 const storage = multer.diskStorage({
   destination: (req, file, cb) => {
@@ -40,18 +41,26 @@ router.post("/", upload.single("file"), async (req, res) => {
 
     console.log(pdfData.text.length);
     console.log(" After pdfParse");
-    const transactions = extractTransactions(pdfData.text);
+    const {paymentsData,pdfDate} = extractTransactions(pdfData.text);    
 
-    fs.writeFileSync("write-ptm.txt", pdfData.text, "utf-8");
-    fs.writeFileSync(
-      "write-transaction-1-ptm.txt",
-      transactions.join("\n"),
-        // transactions,
-      "utf-8"
-    );
+    fs.writeFileSync(`${req.file.originalname}.txt`, pdfData.text, "utf-8");
+    // fs.writeFileSync(
+    //   "write-transaction-1-ptm.txt",
+    //   transactions.join("\n"),
+    //     // transactions,
+    //   "utf-8"
+    // );
+    // const  { startingDate, endingDate } =parseDateRange(financialYear);
 
-    const transactionSummary = generateSummary(transactions) //external function
-    console.log(transactionSummary);
+    fs.writeFileSync("transactions.json", JSON.stringify(paymentsData, null, 2),
+      "utf-8")
+
+    let transactionSummary = generateSummary(paymentsData) //external function
+
+    transactionSummary ={...pdfDate, ...transactionSummary  }
+
+    // console.log(transactionSummary);
+    
 
     res.status(200).json({
       success: true,

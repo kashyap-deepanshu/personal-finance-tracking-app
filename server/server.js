@@ -1,5 +1,4 @@
 const express = require("express");
-const healthRoutes = require("./routes/healthRoutes");
 const uploadRoutes = require("./routes/uploadRoutes");
 const cors = require("cors");
 
@@ -11,7 +10,6 @@ app.use(cors({
 app.use(express.json());
 
 // routes
-app.use("/health", healthRoutes);
 app.use("/upload", uploadRoutes);
 
 app.listen(PORT, () => {

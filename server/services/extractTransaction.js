@@ -4,6 +4,7 @@ const removeNoteBlock = require("./removeNoteBlock");
 
 const extractTransactions = (text) => {
     console.log("extract transaction function running");
+    let financialYear=null
 
     const linesWithNotes = text.split("\n");
 
@@ -17,6 +18,11 @@ const extractTransactions = (text) => {
     let startingIndex = -1;
     lines.forEach((line, index) => {
         const word = line.toLowerCase();
+        //detect pdf financial years
+        if (startingIndex === -1 && word.includes("paytm statement for")) {
+            console.log("financial years:- ",lines[index+1]);   
+            financialYear=lines[index+1] ;
+        }
 
         // detect table start
         if (startingIndex === -1 && word.includes("passbook payments history")) {
@@ -30,10 +36,10 @@ const extractTransactions = (text) => {
 
     const rawData = findRawData(transactions)
     // console.log(rawData);
-    const paymentsData = extractPdfData(rawData)
+    const {paymentsData,pdfDate} = extractPdfData(rawData, financialYear)
 
     
-    return paymentsData;
+    return {paymentsData,pdfDate};
 };
 
 
