@@ -2,7 +2,7 @@ const generateSummary = (transactions) => {
     let totalIncome = 0;
     let totalExpense = 0;
     const categoryTotals = {};
-    let transactionYears=[];
+    let transactionYears = [];
 
     for (const txn of transactions) {
         //get transactions year
@@ -15,10 +15,10 @@ const generateSummary = (transactions) => {
         // income vs expense
         if (amount > 0) {
             totalIncome += amount;
-            totalIncome =Number(totalIncome.toFixed(2))
+            totalIncome = Number(totalIncome.toFixed(2))
         } else {
             totalExpense += Math.abs(amount);
-            totalExpense =Number(totalExpense.toFixed(2))
+            totalExpense = Number(totalExpense.toFixed(2))
         }
 
         // determine category
@@ -42,8 +42,8 @@ const generateSummary = (transactions) => {
 
         // categoryTotals[category] += Math.abs(amount);
         categoryTotals[category] = Number(
-    (categoryTotals[category] + Math.abs(amount)).toFixed(2)
-);
+            (categoryTotals[category] + Math.abs(amount)).toFixed(2)
+        );
 
     }
 

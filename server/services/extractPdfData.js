@@ -60,7 +60,7 @@ const extractPdfData = (rawData, financialYear) => {
         let tag = null
         let date = null
         let amount = null
-        let time = null
+        let time = null 
         let desIndex = null
         dataBlock.map((data, index) => {
             tag = tag ? tag : extractTag(data);

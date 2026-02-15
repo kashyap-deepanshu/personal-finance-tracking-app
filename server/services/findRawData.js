@@ -5,7 +5,7 @@ const extractAmount = (data) => {
     if (!match) return null;
 
     let sign = match[1];
-    let number = match[2].replace(/,/g, "");
+    let number = match[2].replace(/,/g, ""); 
 
     let amount = parseFloat(number);
 

@@ -61,7 +61,7 @@ function CategoryPieChart({ data = [] }) {
                         data={sortedData}
                         dataKey="value"
                         nameKey="name"
-                        innerRadius={isDonut ? 90 : 0}
+                        innerRadius={isDonut ? 80 : 0}
                         outerRadius={140}
                         labelLine={true}
                         label

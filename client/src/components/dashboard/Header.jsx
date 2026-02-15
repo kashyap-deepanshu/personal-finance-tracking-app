@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 
-const Header = ({data}) => {
+const Header = ({data , financialYear}) => {
     const navigate = useNavigate();
     const handleExportCSV = () => {
         const totalIncome = data.totalIncome || 0;
@@ -40,7 +40,7 @@ const Header = ({data}) => {
                     Here’s your financial overview
                 </p>
                 <p className="text-gray-500 font-semibold text-sm">
-                    {data.financialYear}
+                    { financialYear || ""} 
                 </p>
             </div>
 

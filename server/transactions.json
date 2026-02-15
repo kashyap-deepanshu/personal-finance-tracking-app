@@ -4,7 +4,7 @@
     "date": "2026-02-11T00:00:00.000Z",
     "amount": -34,
     "time": "8:19 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sunny Pal"
   },
   {
@@ -36,7 +36,7 @@
     "date": "2026-02-08T00:00:00.000Z",
     "amount": -100,
     "time": "1:00 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to The Servjan Cooperative Urban "
   },
   {
@@ -44,7 +44,7 @@
     "date": "2026-02-08T00:00:00.000Z",
     "amount": -3170,
     "time": "12:54 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to The Servjan Cooperative Urban "
   },
   {
@@ -52,7 +52,7 @@
     "date": "2026-02-08T00:00:00.000Z",
     "amount": -1970,
     "time": "12:53 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to The Servjan Cooperative Urban "
   },
   {
@@ -84,7 +84,7 @@
     "date": "2026-02-08T00:00:00.000Z",
     "amount": -80,
     "time": "10:43 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to SUNIL"
   },
   {
@@ -108,7 +108,7 @@
     "date": "2026-02-04T00:00:00.000Z",
     "amount": -12,
     "time": "8:09 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Nitin Kumar"
   },
   {
@@ -116,7 +116,7 @@
     "date": "2026-02-04T00:00:00.000Z",
     "amount": -34,
     "time": "8:44 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sunny Pal"
   },
   {
@@ -124,7 +124,7 @@
     "date": "2026-02-03T00:00:00.000Z",
     "amount": -500,
     "time": "6:23 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Shipra Stationary"
   },
   {
@@ -156,7 +156,7 @@
     "date": "2026-02-01T00:00:00.000Z",
     "amount": -1850,
     "time": "11:30 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Shipra Stationary"
   },
   {
@@ -228,7 +228,7 @@
     "date": "2026-01-31T00:00:00.000Z",
     "amount": -1900,
     "time": "10:17 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Shipra Stationary"
   },
   {
@@ -260,7 +260,7 @@
     "date": "2026-01-30T00:00:00.000Z",
     "amount": -1850,
     "time": "9:31 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Shipra Stationary"
   },
   {
@@ -268,7 +268,7 @@
     "date": "2026-01-28T00:00:00.000Z",
     "amount": -1900,
     "time": "7:53 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Shipra Stationary"
   },
   {
@@ -284,7 +284,7 @@
     "date": "2026-01-25T00:00:00.000Z",
     "amount": -30,
     "time": "5:04 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Anil Sweets"
   },
   {
@@ -308,7 +308,7 @@
     "date": "2026-01-24T00:00:00.000Z",
     "amount": -1100,
     "time": "2:09 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Shri Pal Verma"
   },
   {
@@ -324,7 +324,7 @@
     "date": "2026-01-23T00:00:00.000Z",
     "amount": -40,
     "time": "5:32 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Mr Chander Kant Singh Tomar"
   },
   {
@@ -348,7 +348,7 @@
     "date": "2026-01-23T00:00:00.000Z",
     "amount": -34,
     "time": "8:34 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sunny Pal"
   },
   {
@@ -436,7 +436,7 @@
     "date": "2026-01-21T00:00:00.000Z",
     "amount": -50,
     "time": "8:34 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sunny Pal"
   },
   {
@@ -444,7 +444,7 @@
     "date": "2026-01-20T00:00:00.000Z",
     "amount": -10,
     "time": "5:30 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Mr SUNIL KUMAR"
   },
   {
@@ -452,7 +452,7 @@
     "date": "2026-01-20T00:00:00.000Z",
     "amount": -50,
     "time": "8:30 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sunny Pal"
   },
   {
@@ -476,7 +476,7 @@
     "date": "2026-01-18T00:00:00.000Z",
     "amount": -4431,
     "time": "7:15 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sbi Cards"
   },
   {
@@ -492,7 +492,7 @@
     "date": "2026-01-18T00:00:00.000Z",
     "amount": -100,
     "time": "2:00 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Madhav Aggrawal"
   },
   {
@@ -500,7 +500,7 @@
     "date": "2026-01-18T00:00:00.000Z",
     "amount": -200,
     "time": "1:28 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Madhav Aggrawal"
   },
   {
@@ -540,7 +540,7 @@
     "date": "2026-01-16T00:00:00.000Z",
     "amount": -10,
     "time": "9:07 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Mr SUNIL KUMAR"
   },
   {
@@ -564,7 +564,7 @@
     "date": "2026-01-15T00:00:00.000Z",
     "amount": -151,
     "time": "9:12 AM",
-    "category": "Transfer",
+    "category": "Shopping",
     "description": "Paid to Meesho"
   },
   {
@@ -612,7 +612,7 @@
     "date": "2026-01-10T00:00:00.000Z",
     "amount": -10,
     "time": "7:06 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sunil S O Rajender"
   },
   {
@@ -620,7 +620,7 @@
     "date": "2026-01-10T00:00:00.000Z",
     "amount": -86,
     "time": "6:19 PM",
-    "category": "Transfer",
+    "category": "Shopping",
     "description": "Paid to Meesho"
   },
   {
@@ -652,7 +652,7 @@
     "date": "2026-01-09T00:00:00.000Z",
     "amount": -100,
     "time": "10:51 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to The Servjan Cooperative Urban "
   },
   {
@@ -660,7 +660,7 @@
     "date": "2026-01-09T00:00:00.000Z",
     "amount": -4356,
     "time": "10:50 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to The Servjan Cooperative Urban "
   },
   {
@@ -668,7 +668,7 @@
     "date": "2026-01-09T00:00:00.000Z",
     "amount": -6649,
     "time": "10:49 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to The Servjan Cooperative Urban "
   },
   {
@@ -676,7 +676,7 @@
     "date": "2026-01-09T00:00:00.000Z",
     "amount": -3200,
     "time": "10:49 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to The Servjan Cooperative Urban "
   },
   {
@@ -684,7 +684,7 @@
     "date": "2026-01-09T00:00:00.000Z",
     "amount": -5140,
     "time": "10:49 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to The Servjan Cooperative Urban "
   },
   {
@@ -708,7 +708,7 @@
     "date": "2026-01-04T00:00:00.000Z",
     "amount": -160,
     "time": "6:54 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to National Capital Region "
   },
   {
@@ -740,7 +740,7 @@
     "date": "2026-01-01T00:00:00.000Z",
     "amount": -1900,
     "time": "3:02 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Shipra Stationary"
   },
   {
@@ -748,7 +748,7 @@
     "date": "2026-01-01T00:00:00.000Z",
     "amount": -130,
     "time": "10:57 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to SUNIL"
   },
   {
@@ -764,7 +764,7 @@
     "date": "2025-12-30T00:00:00.000Z",
     "amount": -1800,
     "time": "6:26 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Shipra Stationary"
   },
   {
@@ -780,7 +780,7 @@
     "date": "2025-12-27T00:00:00.000Z",
     "amount": -1800,
     "time": "10:38 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Shipra Stationary"
   },
   {
@@ -788,7 +788,7 @@
     "date": "2025-12-26T00:00:00.000Z",
     "amount": -1850,
     "time": "12:48 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Shipra Stationary"
   },
   {
@@ -796,7 +796,7 @@
     "date": "2025-12-26T00:00:00.000Z",
     "amount": -10,
     "time": "8:54 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Mr Sunil Kumar"
   },
   {
@@ -812,7 +812,7 @@
     "date": "2025-12-24T00:00:00.000Z",
     "amount": -700,
     "time": "9:22 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Shipra Stationary"
   },
   {
@@ -892,7 +892,7 @@
     "date": "2025-12-18T00:00:00.000Z",
     "amount": -195,
     "time": "6:53 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Nitin Kumar"
   },
   {
@@ -908,7 +908,7 @@
     "date": "2025-12-17T00:00:00.000Z",
     "amount": -50,
     "time": "12:32 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Ghure Singh"
   },
   {
@@ -924,7 +924,7 @@
     "date": "2025-12-16T00:00:00.000Z",
     "amount": -130,
     "time": "6:18 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Nitin Kumar"
   },
   {
@@ -932,7 +932,7 @@
     "date": "2025-12-15T00:00:00.000Z",
     "amount": -61,
     "time": "11:05 PM",
-    "category": "Transfer",
+    "category": "Shopping",
     "description": "Paid to Meesho"
   },
   {
@@ -940,7 +940,7 @@
     "date": "2025-12-15T00:00:00.000Z",
     "amount": -1499.78,
     "time": "6:21 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Www Excitel Com"
   },
   {
@@ -956,7 +956,7 @@
     "date": "2025-12-14T00:00:00.000Z",
     "amount": -15,
     "time": "2:24 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Anil Sweets Corner"
   },
   {
@@ -980,7 +980,7 @@
     "date": "2025-12-12T00:00:00.000Z",
     "amount": -10,
     "time": "8:02 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Surendra"
   },
   {
@@ -988,7 +988,7 @@
     "date": "2025-12-11T00:00:00.000Z",
     "amount": -110,
     "time": "7:06 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Mr Sunil Kumar"
   },
   {
@@ -1012,7 +1012,7 @@
     "date": "2025-12-09T00:00:00.000Z",
     "amount": -1000,
     "time": "8:38 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Mr Sunil Kumar"
   },
   {
@@ -1028,7 +1028,7 @@
     "date": "2025-12-09T00:00:00.000Z",
     "amount": -100,
     "time": "8:22 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to The Servjan Cooperative Urban "
   },
   {
@@ -1036,7 +1036,7 @@
     "date": "2025-12-09T00:00:00.000Z",
     "amount": -6720,
     "time": "8:22 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to The Servjan Cooperative Urban "
   },
   {
@@ -1044,7 +1044,7 @@
     "date": "2025-12-09T00:00:00.000Z",
     "amount": -4420,
     "time": "8:21 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to The Servjan Cooperative Urban "
   },
   {
@@ -1052,7 +1052,7 @@
     "date": "2025-12-09T00:00:00.000Z",
     "amount": -3250,
     "time": "8:21 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to The Servjan Cooperative Urban "
   },
   {
@@ -1060,7 +1060,7 @@
     "date": "2025-12-09T00:00:00.000Z",
     "amount": -5200,
     "time": "8:20 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to The Servjan Cooperative Urban "
   },
   {
@@ -1116,7 +1116,7 @@
     "date": "2025-12-06T00:00:00.000Z",
     "amount": -120,
     "time": "11:44 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Atiraj Singh"
   },
   {
@@ -1132,7 +1132,7 @@
     "date": "2025-12-06T00:00:00.000Z",
     "amount": -80,
     "time": "8:26 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Karmvir Singh"
   },
   {
@@ -1140,7 +1140,7 @@
     "date": "2025-12-04T00:00:00.000Z",
     "amount": -30,
     "time": "12:18 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Anil Sweets"
   },
   {
@@ -1148,7 +1148,7 @@
     "date": "2025-12-04T00:00:00.000Z",
     "amount": -60,
     "time": "12:16 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Anil Sweets"
   },
   {
@@ -1156,7 +1156,7 @@
     "date": "2025-12-04T00:00:00.000Z",
     "amount": -100,
     "time": "12:06 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Maheshwari Traders"
   },
   {
@@ -1212,7 +1212,7 @@
     "date": "2025-11-30T00:00:00.000Z",
     "amount": -1850,
     "time": "8:26 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Shipra Stationary"
   },
   {
@@ -1244,7 +1244,7 @@
     "date": "2025-11-29T00:00:00.000Z",
     "amount": -1900,
     "time": "12:35 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Shipra Stationary"
   },
   {
@@ -1252,7 +1252,7 @@
     "date": "2025-11-29T00:00:00.000Z",
     "amount": -40,
     "time": "12:34 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to YOGESH"
   },
   {
@@ -1268,7 +1268,7 @@
     "date": "2025-11-28T00:00:00.000Z",
     "amount": -83,
     "time": "4:03 PM",
-    "category": "Transfer",
+    "category": "Shopping",
     "description": "Paid to Meesho"
   },
   {
@@ -1276,7 +1276,7 @@
     "date": "2025-11-28T00:00:00.000Z",
     "amount": -1800,
     "time": "12:56 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Shipra Stationary"
   },
   {
@@ -1284,7 +1284,7 @@
     "date": "2025-11-27T00:00:00.000Z",
     "amount": -1850,
     "time": "10:02 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Shipra Stationary"
   },
   {
@@ -1300,7 +1300,7 @@
     "date": "2025-11-25T00:00:00.000Z",
     "amount": -20,
     "time": "6:20 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Rahul Saxena"
   },
   {
@@ -1308,7 +1308,7 @@
     "date": "2025-11-25T00:00:00.000Z",
     "amount": -90,
     "time": "5:00 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Nitin Kumar"
   },
   {
@@ -1316,7 +1316,7 @@
     "date": "2025-11-23T00:00:00.000Z",
     "amount": -240,
     "time": "11:23 PM",
-    "category": "Transfer",
+    "category": "Shopping",
     "description": "Paid to Meesho"
   },
   {
@@ -1324,7 +1324,7 @@
     "date": "2025-11-23T00:00:00.000Z",
     "amount": -228,
     "time": "11:22 PM",
-    "category": "Transfer",
+    "category": "Shopping",
     "description": "Paid to Meesho"
   },
   {
@@ -1340,7 +1340,7 @@
     "date": "2025-11-23T00:00:00.000Z",
     "amount": -39,
     "time": "6:36 PM",
-    "category": "Transfer",
+    "category": "Shopping",
     "description": "Paid to Meesho"
   },
   {
@@ -1372,7 +1372,7 @@
     "date": "2025-11-21T00:00:00.000Z",
     "amount": -40,
     "time": "6:39 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Anil Sweets"
   },
   {
@@ -1396,7 +1396,7 @@
     "date": "2025-11-19T00:00:00.000Z",
     "amount": -40,
     "time": "7:02 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Rahul Saxena"
   },
   {
@@ -1412,7 +1412,7 @@
     "date": "2025-11-18T00:00:00.000Z",
     "amount": -150,
     "time": "6:09 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Nitesh Sharma"
   },
   {
@@ -1428,7 +1428,7 @@
     "date": "2025-11-18T00:00:00.000Z",
     "amount": -50,
     "time": "6:01 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Mr Gopal Datt Mathp"
   },
   {
@@ -1436,7 +1436,7 @@
     "date": "2025-11-17T00:00:00.000Z",
     "amount": -99,
     "time": "9:31 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Karmvir Singh"
   },
   {
@@ -1444,7 +1444,7 @@
     "date": "2025-11-17T00:00:00.000Z",
     "amount": -15,
     "time": "3:21 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Jivanlal"
   },
   {
@@ -1468,7 +1468,7 @@
     "date": "2025-11-15T00:00:00.000Z",
     "amount": -40,
     "time": "8:06 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sunny Pal"
   },
   {
@@ -1476,7 +1476,7 @@
     "date": "2025-11-14T00:00:00.000Z",
     "amount": -40,
     "time": "4:35 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to JOGINDER"
   },
   {
@@ -1484,7 +1484,7 @@
     "date": "2025-11-13T00:00:00.000Z",
     "amount": -2000,
     "time": "6:40 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Nitesh Sharma"
   },
   {
@@ -1532,7 +1532,7 @@
     "date": "2025-11-11T00:00:00.000Z",
     "amount": -1850,
     "time": "6:18 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Shipra Stationary"
   },
   {
@@ -1596,7 +1596,7 @@
     "date": "2025-10-31T00:00:00.000Z",
     "amount": -1900,
     "time": "8:40 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Shipra Stationary"
   },
   {
@@ -1604,7 +1604,7 @@
     "date": "2025-10-31T00:00:00.000Z",
     "amount": -20,
     "time": "7:30 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Mr Sunil Kumar"
   },
   {
@@ -1628,7 +1628,7 @@
     "date": "2025-10-31T00:00:00.000Z",
     "amount": -50,
     "time": "11:26 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Maheshwari Traders"
   },
   {
@@ -1660,7 +1660,7 @@
     "date": "2025-10-30T00:00:00.000Z",
     "amount": -223,
     "time": "9:25 PM",
-    "category": "Transfer",
+    "category": "Shopping",
     "description": "Paid to Meesho"
   },
   {
@@ -1668,7 +1668,7 @@
     "date": "2025-10-30T00:00:00.000Z",
     "amount": -1900,
     "time": "1:14 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Shipra Stationary"
   },
   {
@@ -1676,7 +1676,7 @@
     "date": "2025-10-30T00:00:00.000Z",
     "amount": -20,
     "time": "1:13 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Nitesh Sharma"
   },
   {
@@ -1716,7 +1716,7 @@
     "date": "2025-10-28T00:00:00.000Z",
     "amount": -1900,
     "time": "10:52 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Shipra Stationary"
   },
   {
@@ -1764,7 +1764,7 @@
     "date": "2025-10-27T00:00:00.000Z",
     "amount": -1800,
     "time": "7:24 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Shipra Stationary"
   },
   {
@@ -1772,7 +1772,7 @@
     "date": "2025-10-27T00:00:00.000Z",
     "amount": -175,
     "time": "7:20 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Nitesh Sharma"
   },
   {
@@ -1780,7 +1780,7 @@
     "date": "2025-10-27T00:00:00.000Z",
     "amount": -20,
     "time": "7:49 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Suresh"
   },
   {
@@ -1788,7 +1788,7 @@
     "date": "2025-10-26T00:00:00.000Z",
     "amount": -1850,
     "time": "6:05 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Shipra Stationary"
   },
   {
@@ -1812,7 +1812,7 @@
     "date": "2025-10-26T00:00:00.000Z",
     "amount": -15,
     "time": "9:41 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Mr Sunil Kumar"
   },
   {
@@ -1820,7 +1820,7 @@
     "date": "2025-10-25T00:00:00.000Z",
     "amount": -712,
     "time": "9:11 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Gagan Enterprises"
   },
   {
@@ -1852,7 +1852,7 @@
     "date": "2025-10-25T00:00:00.000Z",
     "amount": -1900,
     "time": "11:41 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Shipra Stationary"
   },
   {
@@ -1860,7 +1860,7 @@
     "date": "2025-10-25T00:00:00.000Z",
     "amount": -55,
     "time": "9:27 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Monu"
   },
   {
@@ -1868,7 +1868,7 @@
     "date": "2025-10-24T00:00:00.000Z",
     "amount": -20,
     "time": "6:22 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Mr Sunil Kumar"
   },
   {
@@ -1884,7 +1884,7 @@
     "date": "2025-10-23T00:00:00.000Z",
     "amount": -550,
     "time": "10:34 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Anurag Singh"
   },
   {
@@ -1908,7 +1908,7 @@
     "date": "2025-10-23T00:00:00.000Z",
     "amount": -150,
     "time": "1:39 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Anil Sweets Corner"
   },
   {
@@ -1948,7 +1948,7 @@
     "date": "2025-10-22T00:00:00.000Z",
     "amount": -160,
     "time": "9:36 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sunil"
   },
   {
@@ -1956,7 +1956,7 @@
     "date": "2025-10-22T00:00:00.000Z",
     "amount": -120,
     "time": "9:20 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to SUNIL"
   },
   {
@@ -1964,7 +1964,7 @@
     "date": "2025-10-22T00:00:00.000Z",
     "amount": -20,
     "time": "8:20 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Mr Sunil Kumar"
   },
   {
@@ -1972,7 +1972,7 @@
     "date": "2025-10-20T00:00:00.000Z",
     "amount": -150,
     "time": "7:04 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Monu"
   },
   {
@@ -1988,7 +1988,7 @@
     "date": "2025-09-30T00:00:00.000Z",
     "amount": -200,
     "time": "4:06 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to National Capital Region "
   },
   {
@@ -2004,7 +2004,7 @@
     "date": "2025-09-30T00:00:00.000Z",
     "amount": -1800,
     "time": "9:32 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Shipra Stationary"
   },
   {
@@ -2028,7 +2028,7 @@
     "date": "2025-09-29T00:00:00.000Z",
     "amount": -35,
     "time": "8:17 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Deepak"
   },
   {
@@ -2036,7 +2036,7 @@
     "date": "2025-09-29T00:00:00.000Z",
     "amount": -50,
     "time": "8:10 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Deepak"
   },
   {
@@ -2052,7 +2052,7 @@
     "date": "2025-09-28T00:00:00.000Z",
     "amount": -450,
     "time": "4:46 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Harish Kumar"
   },
   {
@@ -2060,7 +2060,7 @@
     "date": "2025-09-28T00:00:00.000Z",
     "amount": -230,
     "time": "3:22 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Nitesh Sharma"
   },
   {
@@ -2076,7 +2076,7 @@
     "date": "2025-09-28T00:00:00.000Z",
     "amount": -40,
     "time": "10:47 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Jan"
   },
   {
@@ -2108,7 +2108,7 @@
     "date": "2025-09-27T00:00:00.000Z",
     "amount": -1800,
     "time": "6:53 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Shipra Stationary"
   },
   {
@@ -2132,7 +2132,7 @@
     "date": "2025-09-26T00:00:00.000Z",
     "amount": -1900,
     "time": "7:00 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Shipra Stationary"
   },
   {
@@ -2212,7 +2212,7 @@
     "date": "2025-09-25T00:00:00.000Z",
     "amount": -1900,
     "time": "4:25 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Shipra Stationary"
   },
   {
@@ -2236,7 +2236,7 @@
     "date": "2025-09-24T00:00:00.000Z",
     "amount": -1900,
     "time": "1:34 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Shipra Stationary"
   },
   {
@@ -2252,7 +2252,7 @@
     "date": "2025-09-23T00:00:00.000Z",
     "amount": -101,
     "time": "6:25 PM",
-    "category": "Transfer",
+    "category": "Shopping",
     "description": "Paid to Meesho"
   },
   {
@@ -2260,7 +2260,7 @@
     "date": "2025-09-22T00:00:00.000Z",
     "amount": -1750,
     "time": "10:25 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Shipra Stationary"
   },
   {
@@ -2268,7 +2268,7 @@
     "date": "2025-09-21T00:00:00.000Z",
     "amount": -1800,
     "time": "8:31 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Shipra Stationary"
   },
   {
@@ -2300,7 +2300,7 @@
     "date": "2025-09-20T00:00:00.000Z",
     "amount": -3356,
     "time": "11:40 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to The Servjan Cooperative Urban "
   },
   {
@@ -2316,7 +2316,7 @@
     "date": "2025-09-18T00:00:00.000Z",
     "amount": -1800,
     "time": "7:39 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Shipra Stationary"
   },
   {
@@ -2340,7 +2340,7 @@
     "date": "2025-09-17T00:00:00.000Z",
     "amount": -60,
     "time": "8:07 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Ajay Kumar S O Om Prakash"
   },
   {
@@ -2348,7 +2348,7 @@
     "date": "2025-09-17T00:00:00.000Z",
     "amount": -35,
     "time": "10:42 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Anil Sweets Corner"
   },
   {
@@ -2356,7 +2356,7 @@
     "date": "2025-09-16T00:00:00.000Z",
     "amount": -85,
     "time": "11:38 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sanjay Kumar Dhaker"
   },
   {
@@ -2412,7 +2412,7 @@
     "date": "2025-08-31T00:00:00.000Z",
     "amount": -1700,
     "time": "8:22 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Shipra Stationary"
   },
   {
@@ -2420,7 +2420,7 @@
     "date": "2025-08-30T00:00:00.000Z",
     "amount": -1850,
     "time": "10:42 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Shipra Stationary"
   },
   {
@@ -2428,7 +2428,7 @@
     "date": "2025-08-29T00:00:00.000Z",
     "amount": -1900,
     "time": "9:48 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Shipra Stationary"
   },
   {
@@ -2436,7 +2436,7 @@
     "date": "2025-08-28T00:00:00.000Z",
     "amount": -1850,
     "time": "10:03 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Shipra Stationary"
   },
   {
@@ -2444,7 +2444,7 @@
     "date": "2025-08-27T00:00:00.000Z",
     "amount": -20,
     "time": "12:20 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sachin Gautam"
   },
   {
@@ -2460,7 +2460,7 @@
     "date": "2025-08-27T00:00:00.000Z",
     "amount": -100,
     "time": "9:23 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Monu"
   },
   {
@@ -2484,7 +2484,7 @@
     "date": "2025-08-26T00:00:00.000Z",
     "amount": -1850,
     "time": "1:29 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Shipra Stationary"
   },
   {
@@ -2500,7 +2500,7 @@
     "date": "2025-08-25T00:00:00.000Z",
     "amount": -50,
     "time": "5:34 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Deepak"
   },
   {
@@ -2508,7 +2508,7 @@
     "date": "2025-08-24T00:00:00.000Z",
     "amount": -15,
     "time": "2:29 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Pooja"
   },
   {
@@ -2516,7 +2516,7 @@
     "date": "2025-08-24T00:00:00.000Z",
     "amount": -50,
     "time": "12:55 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to ANEESH"
   },
   {
@@ -2532,7 +2532,7 @@
     "date": "2025-08-24T00:00:00.000Z",
     "amount": -1800,
     "time": "12:23 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Shipra Stationary"
   },
   {
@@ -2540,7 +2540,7 @@
     "date": "2025-08-23T00:00:00.000Z",
     "amount": -1850,
     "time": "7:26 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Shipra Stationary"
   },
   {
@@ -2548,7 +2548,7 @@
     "date": "2025-08-23T00:00:00.000Z",
     "amount": -40,
     "time": "11:33 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Pavan Kumar"
   },
   {
@@ -2564,7 +2564,7 @@
     "date": "2025-08-21T00:00:00.000Z",
     "amount": -8,
     "time": "10:04 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Nitin Kumar"
   },
   {
@@ -2572,7 +2572,7 @@
     "date": "2025-08-21T00:00:00.000Z",
     "amount": -1900,
     "time": "8:46 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Shipra Stationary"
   },
   {
@@ -2596,7 +2596,7 @@
     "date": "2025-08-20T00:00:00.000Z",
     "amount": -178,
     "time": "10:35 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Amit Kumar"
   },
   {
@@ -2604,7 +2604,7 @@
     "date": "2025-08-19T00:00:00.000Z",
     "amount": -341,
     "time": "11:30 AM",
-    "category": "Transfer",
+    "category": "Shopping",
     "description": "Paid to Meesho Technologies Private "
   },
   {
@@ -2628,7 +2628,7 @@
     "date": "2025-08-18T00:00:00.000Z",
     "amount": -40,
     "time": "12:05 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to AMIT"
   },
   {
@@ -2636,7 +2636,7 @@
     "date": "2025-08-18T00:00:00.000Z",
     "amount": -30,
     "time": "10:33 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Himanshu Gupta"
   },
   {
@@ -2644,7 +2644,7 @@
     "date": "2025-08-18T00:00:00.000Z",
     "amount": -20,
     "time": "10:08 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to SUNIL"
   },
   {
@@ -2668,7 +2668,7 @@
     "date": "2025-08-18T00:00:00.000Z",
     "amount": -10,
     "time": "8:07 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sumit Kumar"
   },
   {
@@ -2676,7 +2676,7 @@
     "date": "2025-08-17T00:00:00.000Z",
     "amount": -40,
     "time": "10:30 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sunil So Pahalad"
   },
   {
@@ -2684,7 +2684,7 @@
     "date": "2025-08-17T00:00:00.000Z",
     "amount": -100,
     "time": "10:07 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Aneesh"
   },
   {
@@ -2732,7 +2732,7 @@
     "date": "2025-08-15T00:00:00.000Z",
     "amount": -1000,
     "time": "12:04 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Nitesh Sharma"
   },
   {
@@ -2740,7 +2740,7 @@
     "date": "2025-08-14T00:00:00.000Z",
     "amount": -10,
     "time": "5:10 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Nabal kishor"
   },
   {
@@ -2748,7 +2748,7 @@
     "date": "2025-08-13T00:00:00.000Z",
     "amount": -10,
     "time": "6:06 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Ram Kishor"
   },
   {
@@ -2756,7 +2756,7 @@
     "date": "2025-08-12T00:00:00.000Z",
     "amount": -150,
     "time": "7:56 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Nitin Kumar"
   },
   {
@@ -2788,7 +2788,7 @@
     "date": "2025-08-10T00:00:00.000Z",
     "amount": -100,
     "time": "10:21 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to The Servjan Cooperative Urban "
   },
   {
@@ -2796,7 +2796,7 @@
     "date": "2025-08-10T00:00:00.000Z",
     "amount": -3387,
     "time": "10:21 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to The Servjan Cooperative Urban "
   },
   {
@@ -2804,7 +2804,7 @@
     "date": "2025-08-10T00:00:00.000Z",
     "amount": -4638,
     "time": "10:20 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to The Servjan Cooperative Urban "
   },
   {
@@ -2812,7 +2812,7 @@
     "date": "2025-08-10T00:00:00.000Z",
     "amount": -5440,
     "time": "10:20 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to The Servjan Cooperative Urban "
   },
   {
@@ -2844,7 +2844,7 @@
     "date": "2025-08-08T00:00:00.000Z",
     "amount": -10,
     "time": "11:14 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sumit Kumar"
   },
   {
@@ -2852,7 +2852,7 @@
     "date": "2025-08-08T00:00:00.000Z",
     "amount": -25,
     "time": "10:59 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to AVDESH"
   },
   {
@@ -2860,7 +2860,7 @@
     "date": "2025-08-07T00:00:00.000Z",
     "amount": -70,
     "time": "4:09 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Lalu Kumar"
   },
   {
@@ -2868,7 +2868,7 @@
     "date": "2025-08-06T00:00:00.000Z",
     "amount": -910,
     "time": "12:32 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Mittal Cosmetics"
   },
   {
@@ -2892,7 +2892,7 @@
     "date": "2025-08-04T00:00:00.000Z",
     "amount": -220,
     "time": "9:17 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sunil So Pahalad"
   },
   {
@@ -2900,7 +2900,7 @@
     "date": "2025-08-03T00:00:00.000Z",
     "amount": -270,
     "time": "7:09 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Anil Sweets"
   },
   {
@@ -2908,7 +2908,7 @@
     "date": "2025-08-03T00:00:00.000Z",
     "amount": -249,
     "time": "5:39 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Reliance Jio Infocomm"
   },
   {
@@ -2916,7 +2916,7 @@
     "date": "2025-08-02T00:00:00.000Z",
     "amount": -9,
     "time": "11:33 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sporta Technologies Private "
   },
   {
@@ -2924,7 +2924,7 @@
     "date": "2025-08-02T00:00:00.000Z",
     "amount": -30,
     "time": "11:14 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Pavan Kumar"
   },
   {
@@ -2932,7 +2932,7 @@
     "date": "2025-07-31T00:00:00.000Z",
     "amount": -500,
     "time": "8:02 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Mr Brij Mohan"
   },
   {
@@ -2940,7 +2940,7 @@
     "date": "2025-07-31T00:00:00.000Z",
     "amount": -40,
     "time": "9:09 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Nitin Kumar"
   },
   {
@@ -2996,7 +2996,7 @@
     "date": "2025-07-28T00:00:00.000Z",
     "amount": -1865,
     "time": "10:21 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Shipra Stationary"
   },
   {
@@ -3004,7 +3004,7 @@
     "date": "2025-07-27T00:00:00.000Z",
     "amount": -20,
     "time": "5:57 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to NEERAJ"
   },
   {
@@ -3012,7 +3012,7 @@
     "date": "2025-07-27T00:00:00.000Z",
     "amount": -140,
     "time": "5:56 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to SARDA"
   },
   {
@@ -3036,7 +3036,7 @@
     "date": "2025-07-27T00:00:00.000Z",
     "amount": -40,
     "time": "9:49 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to SUNIL"
   },
   {
@@ -3044,7 +3044,7 @@
     "date": "2025-07-27T00:00:00.000Z",
     "amount": -120,
     "time": "9:39 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to SUNIL"
   },
   {
@@ -3052,7 +3052,7 @@
     "date": "2025-07-26T00:00:00.000Z",
     "amount": -60,
     "time": "7:19 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Nitesh Sharma"
   },
   {
@@ -3068,7 +3068,7 @@
     "date": "2025-07-26T00:00:00.000Z",
     "amount": -1775,
     "time": "10:43 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Shipra Stationary"
   },
   {
@@ -3084,7 +3084,7 @@
     "date": "2025-07-25T00:00:00.000Z",
     "amount": -180,
     "time": "2:36 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to JOGINDER"
   },
   {
@@ -3092,7 +3092,7 @@
     "date": "2025-07-25T00:00:00.000Z",
     "amount": -580,
     "time": "11:19 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Shipra Stationary"
   },
   {
@@ -3108,7 +3108,7 @@
     "date": "2025-07-24T00:00:00.000Z",
     "amount": -10,
     "time": "10:13 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sumit Kumar"
   },
   {
@@ -3116,7 +3116,7 @@
     "date": "2025-07-24T00:00:00.000Z",
     "amount": -990,
     "time": "10:10 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Shipra Stationary"
   },
   {
@@ -3124,7 +3124,7 @@
     "date": "2025-07-24T00:00:00.000Z",
     "amount": -90,
     "time": "7:02 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sushil Kumar Goel"
   },
   {
@@ -3140,7 +3140,7 @@
     "date": "2025-07-23T00:00:00.000Z",
     "amount": -1850,
     "time": "5:58 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Shipra Stationary"
   },
   {
@@ -3148,7 +3148,7 @@
     "date": "2025-07-22T00:00:00.000Z",
     "amount": -53,
     "time": "1:43 PM",
-    "category": "Transfer",
+    "category": "Shopping",
     "description": "Paid to Meesho"
   },
   {
@@ -3156,7 +3156,7 @@
     "date": "2025-07-22T00:00:00.000Z",
     "amount": -1900,
     "time": "11:28 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Shipra Stationary"
   },
   {
@@ -3164,7 +3164,7 @@
     "date": "2025-07-21T00:00:00.000Z",
     "amount": -100,
     "time": "7:46 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to SUNIL"
   },
   {
@@ -3172,7 +3172,7 @@
     "date": "2025-07-20T00:00:00.000Z",
     "amount": -20,
     "time": "9:15 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to SUNIL"
   },
   {
@@ -3180,7 +3180,7 @@
     "date": "2025-07-18T00:00:00.000Z",
     "amount": -10,
     "time": "3:01 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sunil S O Rajender"
   },
   {
@@ -3188,7 +3188,7 @@
     "date": "2025-07-18T00:00:00.000Z",
     "amount": -10,
     "time": "3:00 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sunil S O Rajender"
   },
   {
@@ -3196,7 +3196,7 @@
     "date": "2025-07-18T00:00:00.000Z",
     "amount": -15,
     "time": "8:57 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sumit Kumar"
   },
   {
@@ -3204,7 +3204,7 @@
     "date": "2025-07-17T00:00:00.000Z",
     "amount": -642,
     "time": "5:23 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Amit Kumar"
   },
   {
@@ -3212,7 +3212,7 @@
     "date": "2025-07-17T00:00:00.000Z",
     "amount": -120,
     "time": "1:33 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Anil Sweets"
   },
   {
@@ -3228,7 +3228,7 @@
     "date": "2025-07-12T00:00:00.000Z",
     "amount": -40,
     "time": "6:11 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sarda"
   },
   {
@@ -3244,7 +3244,7 @@
     "date": "2025-07-11T00:00:00.000Z",
     "amount": -20,
     "time": "9:27 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Nitin Kumar"
   },
   {
@@ -3268,7 +3268,7 @@
     "date": "2025-07-10T00:00:00.000Z",
     "amount": -3450,
     "time": "2:43 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to The Servjan Cooperative Urban "
   },
   {
@@ -3276,7 +3276,7 @@
     "date": "2025-07-10T00:00:00.000Z",
     "amount": -197.3,
     "time": "1:59 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Connaught Plaza Rest"
   },
   {
@@ -3284,7 +3284,7 @@
     "date": "2025-07-10T00:00:00.000Z",
     "amount": -200,
     "time": "10:48 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to The Servjan Cooperative Urban "
   },
   {
@@ -3308,7 +3308,7 @@
     "date": "2025-07-10T00:00:00.000Z",
     "amount": -50,
     "time": "8:56 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Nitesh Sharma"
   },
   {
@@ -3316,7 +3316,7 @@
     "date": "2025-07-09T00:00:00.000Z",
     "amount": -6930,
     "time": "11:03 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to The Servjan Cooperative Urban "
   },
   {
@@ -3324,7 +3324,7 @@
     "date": "2025-07-09T00:00:00.000Z",
     "amount": -5520,
     "time": "11:02 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to The Servjan Cooperative Urban "
   },
   {
@@ -3332,7 +3332,7 @@
     "date": "2025-07-09T00:00:00.000Z",
     "amount": -4710,
     "time": "11:00 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to The Servjan Cooperative Urban "
   },
   {
@@ -3356,7 +3356,7 @@
     "date": "2025-06-29T00:00:00.000Z",
     "amount": -1990,
     "time": "8:20 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Shipra Stationary"
   },
   {
@@ -3364,7 +3364,7 @@
     "date": "2025-06-29T00:00:00.000Z",
     "amount": -29,
     "time": "3:01 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sporta Technologies Private "
   },
   {
@@ -3372,7 +3372,7 @@
     "date": "2025-06-28T00:00:00.000Z",
     "amount": -20,
     "time": "7:45 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to SUNIL"
   },
   {
@@ -3380,7 +3380,7 @@
     "date": "2025-06-27T00:00:00.000Z",
     "amount": -10,
     "time": "7:51 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sumit Kumar"
   },
   {
@@ -3388,7 +3388,7 @@
     "date": "2025-06-26T00:00:00.000Z",
     "amount": -35,
     "time": "12:50 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Anil Sweets"
   },
   {
@@ -3460,7 +3460,7 @@
     "date": "2025-06-20T00:00:00.000Z",
     "amount": -38000,
     "time": "12:04 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Intellipaat Software Solutions "
   },
   {
@@ -3468,7 +3468,7 @@
     "date": "2025-06-20T00:00:00.000Z",
     "amount": -2000,
     "time": "12:01 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Intellipaat Software Solutions "
   },
   {
@@ -3476,7 +3476,7 @@
     "date": "2025-06-19T00:00:00.000Z",
     "amount": -45,
     "time": "1:58 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Himanshu Gupta"
   },
   {
@@ -3484,7 +3484,7 @@
     "date": "2025-06-17T00:00:00.000Z",
     "amount": -25,
     "time": "1:48 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sumit Kumar"
   },
   {
@@ -3492,7 +3492,7 @@
     "date": "2025-06-16T00:00:00.000Z",
     "amount": -80,
     "time": "9:27 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to JOGINDER"
   },
   {
@@ -3508,7 +3508,7 @@
     "date": "2025-06-15T00:00:00.000Z",
     "amount": -10,
     "time": "12:07 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Nitesh Sharma"
   },
   {
@@ -3516,7 +3516,7 @@
     "date": "2025-06-14T00:00:00.000Z",
     "amount": -40,
     "time": "10:12 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Jayveer Singh"
   },
   {
@@ -3524,7 +3524,7 @@
     "date": "2025-06-14T00:00:00.000Z",
     "amount": -50,
     "time": "7:20 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to SUNIL"
   },
   {
@@ -3540,7 +3540,7 @@
     "date": "2025-06-12T00:00:00.000Z",
     "amount": -178,
     "time": "5:51 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Amit Kumar"
   },
   {
@@ -3548,7 +3548,7 @@
     "date": "2025-06-12T00:00:00.000Z",
     "amount": -60,
     "time": "5:02 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Himanshu Gupta"
   },
   {
@@ -3556,7 +3556,7 @@
     "date": "2025-06-12T00:00:00.000Z",
     "amount": -960,
     "time": "12:24 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Shipra Stationary"
   },
   {
@@ -3564,7 +3564,7 @@
     "date": "2025-06-12T00:00:00.000Z",
     "amount": -850,
     "time": "10:29 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Shipra Stationary"
   },
   {
@@ -3580,7 +3580,7 @@
     "date": "2025-06-10T00:00:00.000Z",
     "amount": -69,
     "time": "9:49 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sumit Kumar"
   },
   {
@@ -3588,7 +3588,7 @@
     "date": "2025-06-10T00:00:00.000Z",
     "amount": -370,
     "time": "9:12 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Nitin Kumar"
   },
   {
@@ -3596,7 +3596,7 @@
     "date": "2025-06-09T00:00:00.000Z",
     "amount": -40,
     "time": "6:28 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Babloo Kumar"
   },
   {
@@ -3604,7 +3604,7 @@
     "date": "2025-06-09T00:00:00.000Z",
     "amount": -20,
     "time": "11:27 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sumit Kumar"
   },
   {
@@ -3612,7 +3612,7 @@
     "date": "2025-06-09T00:00:00.000Z",
     "amount": -10,
     "time": "11:15 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to YOGESH"
   },
   {
@@ -3620,7 +3620,7 @@
     "date": "2025-06-09T00:00:00.000Z",
     "amount": -300,
     "time": "11:10 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to YOGESH"
   },
   {
@@ -3628,7 +3628,7 @@
     "date": "2025-06-06T00:00:00.000Z",
     "amount": -117,
     "time": "9:24 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Karmvir Singh"
   },
   {
@@ -3636,7 +3636,7 @@
     "date": "2025-06-05T00:00:00.000Z",
     "amount": -20,
     "time": "7:45 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Genda Lal"
   },
   {
@@ -3644,7 +3644,7 @@
     "date": "2025-06-05T00:00:00.000Z",
     "amount": -105,
     "time": "1:21 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Anil Sweets"
   },
   {
@@ -3676,7 +3676,7 @@
     "date": "2025-06-03T00:00:00.000Z",
     "amount": -35,
     "time": "10:19 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sanjay Rathore"
   },
   {
@@ -3684,7 +3684,7 @@
     "date": "2025-06-03T00:00:00.000Z",
     "amount": -49,
     "time": "7:30 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sporta Technologies Private "
   },
   {
@@ -3740,7 +3740,7 @@
     "date": "2025-06-02T00:00:00.000Z",
     "amount": -170,
     "time": "6:21 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Kamal Prajapat"
   },
   {
@@ -3764,7 +3764,7 @@
     "date": "2025-05-30T00:00:00.000Z",
     "amount": -2.77,
     "time": "7:29 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sporta Technologies Private "
   },
   {
@@ -3772,7 +3772,7 @@
     "date": "2025-05-30T00:00:00.000Z",
     "amount": -20,
     "time": "7:05 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Harish Kumar"
   },
   {
@@ -3796,7 +3796,7 @@
     "date": "2025-05-30T00:00:00.000Z",
     "amount": -1,
     "time": "11:25 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Shipra Stationary"
   },
   {
@@ -3804,7 +3804,7 @@
     "date": "2025-05-30T00:00:00.000Z",
     "amount": -1,
     "time": "11:21 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Shipra Stationary"
   },
   {
@@ -3812,7 +3812,7 @@
     "date": "2025-05-30T00:00:00.000Z",
     "amount": -318,
     "time": "10:59 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Nitin Kumar"
   },
   {
@@ -3844,7 +3844,7 @@
     "date": "2025-05-29T00:00:00.000Z",
     "amount": -1900,
     "time": "12:01 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Shipra Stationary"
   },
   {
@@ -3852,7 +3852,7 @@
     "date": "2025-05-27T00:00:00.000Z",
     "amount": -1900,
     "time": "10:53 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Shipra Stationary"
   },
   {
@@ -3860,7 +3860,7 @@
     "date": "2025-05-26T00:00:00.000Z",
     "amount": -40,
     "time": "10:01 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sumit Kumar"
   },
   {
@@ -3868,7 +3868,7 @@
     "date": "2025-05-26T00:00:00.000Z",
     "amount": -81,
     "time": "9:55 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sumit Kumar"
   },
   {
@@ -3900,7 +3900,7 @@
     "date": "2025-05-25T00:00:00.000Z",
     "amount": -1900,
     "time": "8:28 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Shipra Stationary"
   },
   {
@@ -3908,7 +3908,7 @@
     "date": "2025-05-24T00:00:00.000Z",
     "amount": -363,
     "time": "3:23 PM",
-    "category": "Transfer",
+    "category": "Shopping",
     "description": "Paid to Meesho"
   },
   {
@@ -3916,7 +3916,7 @@
     "date": "2025-05-24T00:00:00.000Z",
     "amount": -20,
     "time": "1:02 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Veer Partap Singh"
   },
   {
@@ -3940,7 +3940,7 @@
     "date": "2025-05-24T00:00:00.000Z",
     "amount": -10,
     "time": "7:25 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Suresh"
   },
   {
@@ -3956,7 +3956,7 @@
     "date": "2025-05-23T00:00:00.000Z",
     "amount": -10,
     "time": "7:20 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Suresh"
   },
   {
@@ -3980,7 +3980,7 @@
     "date": "2025-05-22T00:00:00.000Z",
     "amount": -20,
     "time": "7:03 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to SHAILENDRA"
   },
   {
@@ -4004,7 +4004,7 @@
     "date": "2025-05-19T00:00:00.000Z",
     "amount": -90,
     "time": "10:39 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Ankitgoel"
   },
   {
@@ -4012,7 +4012,7 @@
     "date": "2025-05-19T00:00:00.000Z",
     "amount": -10,
     "time": "7:39 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Suresh"
   },
   {
@@ -4084,7 +4084,7 @@
     "date": "2025-05-16T00:00:00.000Z",
     "amount": -35,
     "time": "1:26 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sumit Kumar"
   },
   {
@@ -4092,7 +4092,7 @@
     "date": "2025-05-16T00:00:00.000Z",
     "amount": -105,
     "time": "1:19 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Anil Sweets"
   },
   {
@@ -4100,7 +4100,7 @@
     "date": "2025-05-16T00:00:00.000Z",
     "amount": -10,
     "time": "7:34 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Suresh"
   },
   {
@@ -4124,7 +4124,7 @@
     "date": "2025-05-14T00:00:00.000Z",
     "amount": -40,
     "time": "7:13 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to AMIT"
   },
   {
@@ -4132,7 +4132,7 @@
     "date": "2025-05-14T00:00:00.000Z",
     "amount": -150,
     "time": "7:13 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to AMIT"
   },
   {
@@ -4156,7 +4156,7 @@
     "date": "2025-05-14T00:00:00.000Z",
     "amount": -50,
     "time": "8:52 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to JOGINDER"
   },
   {
@@ -4164,7 +4164,7 @@
     "date": "2025-05-14T00:00:00.000Z",
     "amount": -40,
     "time": "7:21 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to SUNIL"
   },
   {
@@ -4180,7 +4180,7 @@
     "date": "2025-05-13T00:00:00.000Z",
     "amount": -15,
     "time": "9:44 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Nitin Kumar"
   },
   {
@@ -4188,7 +4188,7 @@
     "date": "2025-05-13T00:00:00.000Z",
     "amount": -20,
     "time": "7:12 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to SHAILENDRA"
   },
   {
@@ -4236,7 +4236,7 @@
     "date": "2025-05-09T00:00:00.000Z",
     "amount": -10,
     "time": "7:00 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sumit Kumar"
   },
   {
@@ -4244,7 +4244,7 @@
     "date": "2025-05-09T00:00:00.000Z",
     "amount": -20,
     "time": "6:52 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Suresh"
   },
   {
@@ -4260,7 +4260,7 @@
     "date": "2025-05-06T00:00:00.000Z",
     "amount": -20,
     "time": "10:53 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sumit Kumar"
   },
   {
@@ -4276,7 +4276,7 @@
     "date": "2025-05-06T00:00:00.000Z",
     "amount": -21,
     "time": "7:25 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Nitin Kumar"
   },
   {
@@ -4292,7 +4292,7 @@
     "date": "2025-05-05T00:00:00.000Z",
     "amount": -20,
     "time": "7:28 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Suresh"
   },
   {
@@ -4308,7 +4308,7 @@
     "date": "2025-05-04T00:00:00.000Z",
     "amount": -170,
     "time": "11:56 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Ayush Goyal"
   },
   {
@@ -4316,7 +4316,7 @@
     "date": "2025-05-04T00:00:00.000Z",
     "amount": -80,
     "time": "11:53 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Ayush Goyal"
   },
   {
@@ -4324,7 +4324,7 @@
     "date": "2025-05-04T00:00:00.000Z",
     "amount": -100,
     "time": "9:55 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sunil"
   },
   {
@@ -4332,7 +4332,7 @@
     "date": "2025-05-03T00:00:00.000Z",
     "amount": -70,
     "time": "10:41 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sumit Kumar"
   },
   {
@@ -4356,7 +4356,7 @@
     "date": "2025-05-03T00:00:00.000Z",
     "amount": -46,
     "time": "8:51 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Monu"
   },
   {
@@ -4364,7 +4364,7 @@
     "date": "2025-05-02T00:00:00.000Z",
     "amount": -40,
     "time": "6:02 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sumit Kumar"
   },
   {
@@ -4396,7 +4396,7 @@
     "date": "2025-05-02T00:00:00.000Z",
     "amount": -15,
     "time": "8:34 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sumit Kumar"
   },
   {
@@ -4404,7 +4404,7 @@
     "date": "2025-05-01T00:00:00.000Z",
     "amount": -150,
     "time": "8:46 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Maheshwaritraders"
   },
   {
@@ -4412,7 +4412,7 @@
     "date": "2025-05-01T00:00:00.000Z",
     "amount": -20,
     "time": "8:05 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Anurag Singh"
   },
   {
@@ -4420,7 +4420,7 @@
     "date": "2025-04-30T00:00:00.000Z",
     "amount": -120,
     "time": "2:24 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Anil Sweets"
   },
   {
@@ -4452,7 +4452,7 @@
     "date": "2025-04-29T00:00:00.000Z",
     "amount": -50,
     "time": "7:00 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to AMIT"
   },
   {
@@ -4508,7 +4508,7 @@
     "date": "2025-04-29T00:00:00.000Z",
     "amount": -140,
     "time": "12:50 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Anurag Singh"
   },
   {
@@ -4516,7 +4516,7 @@
     "date": "2025-04-28T00:00:00.000Z",
     "amount": -50,
     "time": "7:18 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sporta Technologies Private "
   },
   {
@@ -4556,7 +4556,7 @@
     "date": "2025-04-28T00:00:00.000Z",
     "amount": -100,
     "time": "12:51 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Anurag Singh"
   },
   {
@@ -4572,7 +4572,7 @@
     "date": "2025-04-28T00:00:00.000Z",
     "amount": -60,
     "time": "10:14 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to SUNIL"
   },
   {
@@ -4580,7 +4580,7 @@
     "date": "2025-04-28T00:00:00.000Z",
     "amount": -180,
     "time": "9:54 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Amit Kumar"
   },
   {
@@ -4588,7 +4588,7 @@
     "date": "2025-04-28T00:00:00.000Z",
     "amount": -10,
     "time": "9:33 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sumit Kumar"
   },
   {
@@ -4604,7 +4604,7 @@
     "date": "2025-04-27T00:00:00.000Z",
     "amount": -50,
     "time": "8:53 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Payu"
   },
   {
@@ -4612,7 +4612,7 @@
     "date": "2025-04-27T00:00:00.000Z",
     "amount": -50,
     "time": "8:51 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Payu"
   },
   {
@@ -4620,7 +4620,7 @@
     "date": "2025-04-27T00:00:00.000Z",
     "amount": -50,
     "time": "8:49 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Payu"
   },
   {
@@ -4628,7 +4628,7 @@
     "date": "2025-04-27T00:00:00.000Z",
     "amount": -50,
     "time": "8:37 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Payu"
   },
   {
@@ -4660,7 +4660,7 @@
     "date": "2025-04-27T00:00:00.000Z",
     "amount": -10,
     "time": "9:08 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Vishakha"
   },
   {
@@ -4684,7 +4684,7 @@
     "date": "2025-04-26T00:00:00.000Z",
     "amount": -20,
     "time": "10:11 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Anurag Singh"
   },
   {
@@ -4692,7 +4692,7 @@
     "date": "2025-04-26T00:00:00.000Z",
     "amount": -30,
     "time": "10:10 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Mother Photostat"
   },
   {
@@ -4804,7 +4804,7 @@
     "date": "2025-04-25T00:00:00.000Z",
     "amount": -254,
     "time": "2:38 PM",
-    "category": "Transfer",
+    "category": "Shopping",
     "description": "Paid to Meesho"
   },
   {
@@ -4844,7 +4844,7 @@
     "date": "2025-03-31T00:00:00.000Z",
     "amount": -46,
     "time": "12:23 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Nitin Kumar"
   },
   {
@@ -4852,7 +4852,7 @@
     "date": "2025-03-31T00:00:00.000Z",
     "amount": -20,
     "time": "7:46 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to SHAILENDRA"
   },
   {
@@ -4860,7 +4860,7 @@
     "date": "2025-03-30T00:00:00.000Z",
     "amount": -80,
     "time": "10:57 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Anurag Singh"
   },
   {
@@ -4884,7 +4884,7 @@
     "date": "2025-03-30T00:00:00.000Z",
     "amount": -40,
     "time": "5:57 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Anurag Singh"
   },
   {
@@ -4892,7 +4892,7 @@
     "date": "2025-03-30T00:00:00.000Z",
     "amount": -686,
     "time": "3:36 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Kapoor Service Station Qr"
   },
   {
@@ -4956,7 +4956,7 @@
     "date": "2025-03-30T00:00:00.000Z",
     "amount": -1900,
     "time": "10:31 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Shipra Stationary"
   },
   {
@@ -4980,7 +4980,7 @@
     "date": "2025-03-29T00:00:00.000Z",
     "amount": -800,
     "time": "10:36 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Nitesh Sharma"
   },
   {
@@ -4996,7 +4996,7 @@
     "date": "2025-03-29T00:00:00.000Z",
     "amount": -20,
     "time": "7:18 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Shailendra"
   },
   {
@@ -5012,7 +5012,7 @@
     "date": "2025-03-28T00:00:00.000Z",
     "amount": -80,
     "time": "6:40 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to JOGINDER"
   },
   {
@@ -5044,7 +5044,7 @@
     "date": "2025-03-28T00:00:00.000Z",
     "amount": -35,
     "time": "8:01 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Suresh"
   },
   {
@@ -5052,7 +5052,7 @@
     "date": "2025-03-28T00:00:00.000Z",
     "amount": -20,
     "time": "7:58 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to SHAILENDRA"
   },
   {
@@ -5076,7 +5076,7 @@
     "date": "2025-03-27T00:00:00.000Z",
     "amount": -1,
     "time": "3:32 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to DEEPANSHU"
   },
   {
@@ -5092,7 +5092,7 @@
     "date": "2025-03-27T00:00:00.000Z",
     "amount": -60,
     "time": "1:54 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Nitesh Sharma"
   },
   {
@@ -5116,7 +5116,7 @@
     "date": "2025-03-27T00:00:00.000Z",
     "amount": -20,
     "time": "7:56 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to SHAILENDRA"
   },
   {
@@ -5140,7 +5140,7 @@
     "date": "2025-03-26T00:00:00.000Z",
     "amount": -10,
     "time": "8:02 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Paytm"
   },
   {
@@ -5188,7 +5188,7 @@
     "date": "2025-03-26T00:00:00.000Z",
     "amount": -80,
     "time": "7:31 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to SUNIL"
   },
   {
@@ -5212,7 +5212,7 @@
     "date": "2025-03-25T00:00:00.000Z",
     "amount": -30,
     "time": "2:36 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sahjit"
   },
   {
@@ -5252,7 +5252,7 @@
     "date": "2025-02-28T00:00:00.000Z",
     "amount": -950,
     "time": "1:24 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Shipra Stationary"
   },
   {
@@ -5292,7 +5292,7 @@
     "date": "2025-02-27T00:00:00.000Z",
     "amount": -60,
     "time": "7:04 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to NAVRAJ"
   },
   {
@@ -5300,7 +5300,7 @@
     "date": "2025-02-27T00:00:00.000Z",
     "amount": -200,
     "time": "7:01 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sporta Technologies Private "
   },
   {
@@ -5348,7 +5348,7 @@
     "date": "2025-02-25T00:00:00.000Z",
     "amount": -90,
     "time": "8:56 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sumit Kumar"
   },
   {
@@ -5356,7 +5356,7 @@
     "date": "2025-02-25T00:00:00.000Z",
     "amount": -1000,
     "time": "5:41 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sumit Kumar"
   },
   {
@@ -5364,7 +5364,7 @@
     "date": "2025-02-25T00:00:00.000Z",
     "amount": -500,
     "time": "9:59 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Nitin Kumar"
   },
   {
@@ -5372,7 +5372,7 @@
     "date": "2025-02-24T00:00:00.000Z",
     "amount": -48,
     "time": "9:21 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Nitesh Sharma"
   },
   {
@@ -5388,7 +5388,7 @@
     "date": "2025-02-24T00:00:00.000Z",
     "amount": -20,
     "time": "6:25 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Kraparam Kraparam"
   },
   {
@@ -5412,7 +5412,7 @@
     "date": "2025-02-24T00:00:00.000Z",
     "amount": -5,
     "time": "9:23 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Suresh"
   },
   {
@@ -5468,7 +5468,7 @@
     "date": "2025-02-20T00:00:00.000Z",
     "amount": -10,
     "time": "9:42 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sumit Kumar"
   },
   {
@@ -5484,7 +5484,7 @@
     "date": "2025-02-19T00:00:00.000Z",
     "amount": -6000,
     "time": "2:09 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Mohit Bakery And Confectionery"
   },
   {
@@ -5508,7 +5508,7 @@
     "date": "2025-02-19T00:00:00.000Z",
     "amount": -2366,
     "time": "8:47 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sbi Cards And Payment "
   },
   {
@@ -5516,7 +5516,7 @@
     "date": "2025-02-19T00:00:00.000Z",
     "amount": -40,
     "time": "7:52 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sunil"
   },
   {
@@ -5540,7 +5540,7 @@
     "date": "2025-02-15T00:00:00.000Z",
     "amount": -20,
     "time": "8:53 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Suresh"
   },
   {
@@ -5564,7 +5564,7 @@
     "date": "2025-02-11T00:00:00.000Z",
     "amount": -169,
     "time": "12:27 AM",
-    "category": "Transfer",
+    "category": "Shopping",
     "description": "Paid to Meesho"
   },
   {
@@ -5604,7 +5604,7 @@
     "date": "2025-02-08T00:00:00.000Z",
     "amount": -100,
     "time": "2:10 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to The Servjan Cooperative Urban "
   },
   {
@@ -5612,7 +5612,7 @@
     "date": "2025-02-08T00:00:00.000Z",
     "amount": -7100,
     "time": "2:10 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to The Servjan Cooperative Urban "
   },
   {
@@ -5620,7 +5620,7 @@
     "date": "2025-02-08T00:00:00.000Z",
     "amount": -5800,
     "time": "2:09 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to The Servjan Cooperative Urban "
   },
   {
@@ -5628,7 +5628,7 @@
     "date": "2025-02-08T00:00:00.000Z",
     "amount": -135,
     "time": "2:07 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to The Servjan Cooperative Urban "
   },
   {
@@ -5708,7 +5708,7 @@
     "date": "2025-02-05T00:00:00.000Z",
     "amount": -160,
     "time": "11:27 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to SUNIL"
   },
   {
@@ -5716,7 +5716,7 @@
     "date": "2025-02-05T00:00:00.000Z",
     "amount": -282,
     "time": "9:51 AM",
-    "category": "Transfer",
+    "category": "Shopping",
     "description": "Paid to Meesho"
   },
   {
@@ -5732,7 +5732,7 @@
     "date": "2025-02-03T00:00:00.000Z",
     "amount": -30,
     "time": "7:06 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Suvish Kumar Tyagi"
   },
   {
@@ -5740,7 +5740,7 @@
     "date": "2025-02-03T00:00:00.000Z",
     "amount": -45,
     "time": "7:06 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Suvish Kumar Tyagi"
   },
   {
@@ -5748,7 +5748,7 @@
     "date": "2025-02-03T00:00:00.000Z",
     "amount": -230,
     "time": "6:02 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Mohan Enterprises"
   },
   {
@@ -5756,7 +5756,7 @@
     "date": "2025-02-03T00:00:00.000Z",
     "amount": -20,
     "time": "4:21 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Mohd Suhail"
   },
   {
@@ -5764,7 +5764,7 @@
     "date": "2025-02-03T00:00:00.000Z",
     "amount": -110,
     "time": "2:01 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Meman Mohammadhusen "
   },
   {
@@ -5820,7 +5820,7 @@
     "date": "2025-02-01T00:00:00.000Z",
     "amount": -20,
     "time": "8:33 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Nabal Kishor"
   },
   {
@@ -5836,7 +5836,7 @@
     "date": "2025-02-01T00:00:00.000Z",
     "amount": -40,
     "time": "8:00 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to SUNIL"
   },
   {
@@ -5844,7 +5844,7 @@
     "date": "2025-01-30T00:00:00.000Z",
     "amount": -10,
     "time": "7:57 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to PoojaDevi"
   },
   {
@@ -5868,7 +5868,7 @@
     "date": "2025-01-28T00:00:00.000Z",
     "amount": -40,
     "time": "5:34 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Savita Goel"
   },
   {
@@ -5884,7 +5884,7 @@
     "date": "2025-01-28T00:00:00.000Z",
     "amount": -168,
     "time": "5:00 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Ayush Goyal"
   },
   {
@@ -5932,7 +5932,7 @@
     "date": "2025-01-26T00:00:00.000Z",
     "amount": -600,
     "time": "8:53 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Mittal Cosmetics"
   },
   {
@@ -5948,7 +5948,7 @@
     "date": "2025-01-26T00:00:00.000Z",
     "amount": -130,
     "time": "7:11 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Deepak"
   },
   {
@@ -5996,7 +5996,7 @@
     "date": "2025-01-24T00:00:00.000Z",
     "amount": -1479,
     "time": "7:14 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Nitesh Sharma"
   },
   {
@@ -6012,7 +6012,7 @@
     "date": "2025-01-24T00:00:00.000Z",
     "amount": -623,
     "time": "10:43 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Provee"
   },
   {
@@ -6068,7 +6068,7 @@
     "date": "2025-01-22T00:00:00.000Z",
     "amount": -100,
     "time": "5:55 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Dream11"
   },
   {
@@ -6116,7 +6116,7 @@
     "date": "2025-01-21T00:00:00.000Z",
     "amount": -642,
     "time": "5:37 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Amit Kumar"
   },
   {
@@ -6220,7 +6220,7 @@
     "date": "2025-01-18T00:00:00.000Z",
     "amount": -67,
     "time": "7:41 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sumit Kumar"
   },
   {
@@ -6228,7 +6228,7 @@
     "date": "2025-01-18T00:00:00.000Z",
     "amount": -25,
     "time": "6:49 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Paytm"
   },
   {
@@ -6236,7 +6236,7 @@
     "date": "2025-01-18T00:00:00.000Z",
     "amount": -4212,
     "time": "11:27 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to SBI cards and Payment services "
   },
   {
@@ -6244,7 +6244,7 @@
     "date": "2025-01-17T00:00:00.000Z",
     "amount": -80,
     "time": "3:39 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to JOGINDER"
   },
   {
@@ -6252,7 +6252,7 @@
     "date": "2024-12-31T00:00:00.000Z",
     "amount": -100,
     "time": "12:36 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sumit Kumar"
   },
   {
@@ -6276,7 +6276,7 @@
     "date": "2024-12-30T00:00:00.000Z",
     "amount": -1900,
     "time": "6:46 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Shipra Stationary"
   },
   {
@@ -6292,7 +6292,7 @@
     "date": "2024-12-29T00:00:00.000Z",
     "amount": -67,
     "time": "11:26 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sumit Kumar"
   },
   {
@@ -6300,7 +6300,7 @@
     "date": "2024-12-29T00:00:00.000Z",
     "amount": -112,
     "time": "11:19 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Yogesh So Lakhan S"
   },
   {
@@ -6308,7 +6308,7 @@
     "date": "2024-12-28T00:00:00.000Z",
     "amount": -4169,
     "time": "12:43 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Ayush Goyal"
   },
   {
@@ -6316,7 +6316,7 @@
     "date": "2024-12-28T00:00:00.000Z",
     "amount": -80,
     "time": "8:23 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sunil So Pahalad"
   },
   {
@@ -6324,7 +6324,7 @@
     "date": "2024-12-26T00:00:00.000Z",
     "amount": -500,
     "time": "9:12 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Shipra Stationary"
   },
   {
@@ -6332,7 +6332,7 @@
     "date": "2024-12-26T00:00:00.000Z",
     "amount": -950,
     "time": "9:12 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Shipra Stationary"
   },
   {
@@ -6340,7 +6340,7 @@
     "date": "2024-12-26T00:00:00.000Z",
     "amount": -150,
     "time": "9:12 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Shipra Stationary"
   },
   {
@@ -6364,7 +6364,7 @@
     "date": "2024-12-26T00:00:00.000Z",
     "amount": -170,
     "time": "6:03 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to SARDA"
   },
   {
@@ -6372,7 +6372,7 @@
     "date": "2024-12-26T00:00:00.000Z",
     "amount": -500,
     "time": "5:41 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Mittal Cosmetics"
   },
   {
@@ -6404,7 +6404,7 @@
     "date": "2024-12-25T00:00:00.000Z",
     "amount": -1880,
     "time": "8:12 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Shipra Stationary"
   },
   {
@@ -6412,7 +6412,7 @@
     "date": "2024-12-25T00:00:00.000Z",
     "amount": -60,
     "time": "7:17 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to NAVRAJ"
   },
   {
@@ -6428,7 +6428,7 @@
     "date": "2024-12-24T00:00:00.000Z",
     "amount": -100,
     "time": "7:04 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to DREAM11"
   },
   {
@@ -6436,7 +6436,7 @@
     "date": "2024-12-24T00:00:00.000Z",
     "amount": -648,
     "time": "6:38 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Kia Bazaar"
   },
   {
@@ -6452,7 +6452,7 @@
     "date": "2024-12-24T00:00:00.000Z",
     "amount": -500,
     "time": "5:30 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Shipra Stationary"
   },
   {
@@ -6460,7 +6460,7 @@
     "date": "2024-12-24T00:00:00.000Z",
     "amount": -500,
     "time": "5:29 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Shipra Stationary"
   },
   {
@@ -6468,7 +6468,7 @@
     "date": "2024-12-24T00:00:00.000Z",
     "amount": -40,
     "time": "8:27 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Nitesh Sharma"
   },
   {
@@ -6484,7 +6484,7 @@
     "date": "2024-12-23T00:00:00.000Z",
     "amount": -80,
     "time": "6:31 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to DEEPAK"
   },
   {
@@ -6508,7 +6508,7 @@
     "date": "2024-12-23T00:00:00.000Z",
     "amount": -150,
     "time": "11:00 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Nitin Kumar"
   },
   {
@@ -6516,7 +6516,7 @@
     "date": "2024-12-23T00:00:00.000Z",
     "amount": -700,
     "time": "10:37 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Nitin Kumar"
   },
   {
@@ -6524,7 +6524,7 @@
     "date": "2024-12-22T00:00:00.000Z",
     "amount": -40,
     "time": "11:23 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to National Capital Region "
   },
   {
@@ -6532,7 +6532,7 @@
     "date": "2024-12-21T00:00:00.000Z",
     "amount": -30,
     "time": "7:09 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to GUDDU"
   },
   {
@@ -6540,7 +6540,7 @@
     "date": "2024-12-21T00:00:00.000Z",
     "amount": -20,
     "time": "8:17 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Suresh"
   },
   {
@@ -6548,7 +6548,7 @@
     "date": "2024-12-21T00:00:00.000Z",
     "amount": -40,
     "time": "8:04 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sunil"
   },
   {
@@ -6580,7 +6580,7 @@
     "date": "2024-12-20T00:00:00.000Z",
     "amount": -42,
     "time": "6:37 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Dream11"
   },
   {
@@ -6604,7 +6604,7 @@
     "date": "2024-12-19T00:00:00.000Z",
     "amount": -60,
     "time": "11:38 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Shivom Taste"
   },
   {
@@ -6612,7 +6612,7 @@
     "date": "2024-12-19T00:00:00.000Z",
     "amount": -40,
     "time": "9:45 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to National Capital Region "
   },
   {
@@ -6628,7 +6628,7 @@
     "date": "2024-12-16T00:00:00.000Z",
     "amount": -20,
     "time": "8:28 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Suresh"
   },
   {
@@ -6636,7 +6636,7 @@
     "date": "2024-12-15T00:00:00.000Z",
     "amount": -30,
     "time": "7:04 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to PINKI"
   },
   {
@@ -6700,7 +6700,7 @@
     "date": "2024-11-29T00:00:00.000Z",
     "amount": -20,
     "time": "6:25 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Monti"
   },
   {
@@ -6716,7 +6716,7 @@
     "date": "2024-11-28T00:00:00.000Z",
     "amount": -40,
     "time": "3:03 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Hunger Point 5"
   },
   {
@@ -6828,7 +6828,7 @@
     "date": "2024-11-24T00:00:00.000Z",
     "amount": -70,
     "time": "6:43 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to PINKI"
   },
   {
@@ -6844,7 +6844,7 @@
     "date": "2024-11-23T00:00:00.000Z",
     "amount": -40,
     "time": "10:53 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to SUNIL"
   },
   {
@@ -6876,7 +6876,7 @@
     "date": "2024-11-19T00:00:00.000Z",
     "amount": -42,
     "time": "2:13 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sumit Kumar"
   },
   {
@@ -6900,7 +6900,7 @@
     "date": "2024-11-18T00:00:00.000Z",
     "amount": -76,
     "time": "11:43 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Ayush Goyal"
   },
   {
@@ -6908,7 +6908,7 @@
     "date": "2024-11-17T00:00:00.000Z",
     "amount": -60,
     "time": "5:50 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Bhagavan Singh"
   },
   {
@@ -6916,7 +6916,7 @@
     "date": "2024-11-16T00:00:00.000Z",
     "amount": -20,
     "time": "6:03 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to MONTI"
   },
   {
@@ -6956,7 +6956,7 @@
     "date": "2024-11-13T00:00:00.000Z",
     "amount": -24,
     "time": "10:20 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Nitin Kumar"
   },
   {
@@ -6980,7 +6980,7 @@
     "date": "2024-11-12T00:00:00.000Z",
     "amount": -40,
     "time": "1:27 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sumit Kumar"
   },
   {
@@ -7012,7 +7012,7 @@
     "date": "2024-11-10T00:00:00.000Z",
     "amount": -409,
     "time": "6:52 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Kia Bazaar"
   },
   {
@@ -7028,7 +7028,7 @@
     "date": "2024-11-08T00:00:00.000Z",
     "amount": -30,
     "time": "5:13 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to JOGINDER"
   },
   {
@@ -7036,7 +7036,7 @@
     "date": "2024-11-08T00:00:00.000Z",
     "amount": -300,
     "time": "9:08 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Dharmender Pal"
   },
   {
@@ -7044,7 +7044,7 @@
     "date": "2024-11-07T00:00:00.000Z",
     "amount": -50,
     "time": "6:13 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to DHARMENDRA"
   },
   {
@@ -7052,7 +7052,7 @@
     "date": "2024-11-07T00:00:00.000Z",
     "amount": -95,
     "time": "3:39 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Bhagat Singh"
   },
   {
@@ -7060,7 +7060,7 @@
     "date": "2024-11-06T00:00:00.000Z",
     "amount": -5144,
     "time": "12:16 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to The Servjan Cooperative Urban "
   },
   {
@@ -7068,7 +7068,7 @@
     "date": "2024-10-31T00:00:00.000Z",
     "amount": -320,
     "time": "8:14 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sumit Kumar"
   },
   {
@@ -7084,7 +7084,7 @@
     "date": "2024-10-31T00:00:00.000Z",
     "amount": -120,
     "time": "5:29 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sudhir Yadav"
   },
   {
@@ -7092,7 +7092,7 @@
     "date": "2024-10-31T00:00:00.000Z",
     "amount": -25,
     "time": "5:21 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Kusuma Devi"
   },
   {
@@ -7100,7 +7100,7 @@
     "date": "2024-10-31T00:00:00.000Z",
     "amount": -20,
     "time": "5:17 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Rahul"
   },
   {
@@ -7108,7 +7108,7 @@
     "date": "2024-10-31T00:00:00.000Z",
     "amount": -80,
     "time": "11:38 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to National Capital Region "
   },
   {
@@ -7132,7 +7132,7 @@
     "date": "2024-10-31T00:00:00.000Z",
     "amount": -299,
     "time": "9:56 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Airtel"
   },
   {
@@ -7140,7 +7140,7 @@
     "date": "2024-10-31T00:00:00.000Z",
     "amount": -40,
     "time": "7:19 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sumit Kumar"
   },
   {
@@ -7204,7 +7204,7 @@
     "date": "2024-10-28T00:00:00.000Z",
     "amount": -20,
     "time": "10:32 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sumit Kumar"
   },
   {
@@ -7308,7 +7308,7 @@
     "date": "2024-10-26T00:00:00.000Z",
     "amount": -40,
     "time": "12:37 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Guniram"
   },
   {
@@ -7324,7 +7324,7 @@
     "date": "2024-10-26T00:00:00.000Z",
     "amount": -560,
     "time": "12:18 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Pooja"
   },
   {
@@ -7340,7 +7340,7 @@
     "date": "2024-10-26T00:00:00.000Z",
     "amount": -58,
     "time": "10:18 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sumit Kumar"
   },
   {
@@ -7348,7 +7348,7 @@
     "date": "2024-10-26T00:00:00.000Z",
     "amount": -160,
     "time": "8:01 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to SUNIL"
   },
   {
@@ -7404,7 +7404,7 @@
     "date": "2024-10-22T00:00:00.000Z",
     "amount": -90,
     "time": "9:14 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sumit Kumar"
   },
   {
@@ -7412,7 +7412,7 @@
     "date": "2024-10-22T00:00:00.000Z",
     "amount": -240,
     "time": "7:45 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sumit Kumar"
   },
   {
@@ -7428,7 +7428,7 @@
     "date": "2024-10-22T00:00:00.000Z",
     "amount": -85,
     "time": "7:02 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Milan Munni"
   },
   {
@@ -7436,7 +7436,7 @@
     "date": "2024-10-22T00:00:00.000Z",
     "amount": -20,
     "time": "6:25 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Chand Babu"
   },
   {
@@ -7444,7 +7444,7 @@
     "date": "2024-10-20T00:00:00.000Z",
     "amount": -90,
     "time": "5:23 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Abdul Sattar"
   },
   {
@@ -7452,7 +7452,7 @@
     "date": "2024-10-19T00:00:00.000Z",
     "amount": -80,
     "time": "7:31 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sunil So Pahalad"
   },
   {
@@ -7460,7 +7460,7 @@
     "date": "2024-10-18T00:00:00.000Z",
     "amount": -10,
     "time": "10:28 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to JOGINDER"
   },
   {
@@ -7500,7 +7500,7 @@
     "date": "2024-09-29T00:00:00.000Z",
     "amount": -1141,
     "time": "2:51 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Kapoor Service Staion"
   },
   {
@@ -7548,7 +7548,7 @@
     "date": "2024-09-27T00:00:00.000Z",
     "amount": -4000,
     "time": "5:10 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Mobil Repair"
   },
   {
@@ -7556,7 +7556,7 @@
     "date": "2024-09-27T00:00:00.000Z",
     "amount": -160,
     "time": "4:20 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Bharat"
   },
   {
@@ -7604,7 +7604,7 @@
     "date": "2024-09-25T00:00:00.000Z",
     "amount": -6000,
     "time": "11:39 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Deepanshu"
   },
   {
@@ -7612,7 +7612,7 @@
     "date": "2024-09-25T00:00:00.000Z",
     "amount": -4000,
     "time": "11:36 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Deepanshu"
   },
   {
@@ -7724,7 +7724,7 @@
     "date": "2024-09-19T00:00:00.000Z",
     "amount": -25,
     "time": "8:04 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Suresh"
   },
   {
@@ -7796,7 +7796,7 @@
     "date": "2024-09-14T00:00:00.000Z",
     "amount": -60,
     "time": "7:45 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Rahul Saxena"
   },
   {
@@ -7804,7 +7804,7 @@
     "date": "2024-09-14T00:00:00.000Z",
     "amount": -75,
     "time": "7:35 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to NIDHI"
   },
   {
@@ -7812,7 +7812,7 @@
     "date": "2024-09-14T00:00:00.000Z",
     "amount": -70,
     "time": "6:28 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Deepak"
   },
   {
@@ -7836,7 +7836,7 @@
     "date": "2024-09-13T00:00:00.000Z",
     "amount": -25,
     "time": "3:19 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Wikimedia Foundation"
   },
   {
@@ -7876,7 +7876,7 @@
     "date": "2024-09-11T00:00:00.000Z",
     "amount": -25,
     "time": "7:39 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Nisar Ali"
   },
   {
@@ -7908,7 +7908,7 @@
     "date": "2024-08-30T00:00:00.000Z",
     "amount": -2.99,
     "time": "5:12 PM",
-    "category": "Transfer",
+    "category": "Food",
     "description": "Paid to MCDONALDS"
   },
   {
@@ -7916,7 +7916,7 @@
     "date": "2024-08-30T00:00:00.000Z",
     "amount": -135.46,
     "time": "5:09 PM",
-    "category": "Transfer",
+    "category": "Food",
     "description": "Paid to MCDONALDS"
   },
   {
@@ -7948,7 +7948,7 @@
     "date": "2024-08-29T00:00:00.000Z",
     "amount": -70,
     "time": "6:49 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sagar Kashyap"
   },
   {
@@ -8028,7 +8028,7 @@
     "date": "2024-08-26T00:00:00.000Z",
     "amount": -80,
     "time": "10:07 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Suresh"
   },
   {
@@ -8044,7 +8044,7 @@
     "date": "2024-08-25T00:00:00.000Z",
     "amount": -30,
     "time": "1:56 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Milan Munni"
   },
   {
@@ -8052,7 +8052,7 @@
     "date": "2024-08-25T00:00:00.000Z",
     "amount": -90,
     "time": "1:35 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Santosh"
   },
   {
@@ -8076,7 +8076,7 @@
     "date": "2024-08-25T00:00:00.000Z",
     "amount": -60,
     "time": "11:57 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Nitesh Sharma"
   },
   {
@@ -8084,7 +8084,7 @@
     "date": "2024-08-25T00:00:00.000Z",
     "amount": -100,
     "time": "11:49 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Monu"
   },
   {
@@ -8124,7 +8124,7 @@
     "date": "2024-08-24T00:00:00.000Z",
     "amount": -50,
     "time": "8:37 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sunil"
   },
   {
@@ -8156,7 +8156,7 @@
     "date": "2024-08-23T00:00:00.000Z",
     "amount": -20,
     "time": "8:29 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Suresh"
   },
   {
@@ -8196,7 +8196,7 @@
     "date": "2024-08-22T00:00:00.000Z",
     "amount": -42917,
     "time": "10:53 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to The Servjan Cooperative Urban "
   },
   {
@@ -8300,7 +8300,7 @@
     "date": "2024-08-19T00:00:00.000Z",
     "amount": -2585.9,
     "time": "3:19 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to LIC of India"
   },
   {
@@ -8316,7 +8316,7 @@
     "date": "2024-08-19T00:00:00.000Z",
     "amount": -130,
     "time": "12:40 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sumit Kumar"
   },
   {
@@ -8340,7 +8340,7 @@
     "date": "2024-08-17T00:00:00.000Z",
     "amount": -2000,
     "time": "3:07 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Deepanshu"
   },
   {
@@ -8396,7 +8396,7 @@
     "date": "2024-08-14T00:00:00.000Z",
     "amount": -2000,
     "time": "12:10 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to DEEPANSHU"
   },
   {
@@ -8460,7 +8460,7 @@
     "date": "2024-08-05T00:00:00.000Z",
     "amount": -44,
     "time": "1:53 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sumit Kumar"
   },
   {
@@ -8508,7 +8508,7 @@
     "date": "2024-08-04T00:00:00.000Z",
     "amount": -1576.74,
     "time": "11:06 AM",
-    "category": null,
+    "category": "Travel",
     "description": "Paytm Train Ticket"
   },
   {
@@ -8548,7 +8548,7 @@
     "date": "2024-08-03T00:00:00.000Z",
     "amount": -5120,
     "time": "11:22 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to The Servjan Cooperative Urban "
   },
   {
@@ -8556,7 +8556,7 @@
     "date": "2024-08-03T00:00:00.000Z",
     "amount": -5312,
     "time": "11:22 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to The Servjan Cooperative Urban "
   },
   {
@@ -8564,7 +8564,7 @@
     "date": "2024-08-03T00:00:00.000Z",
     "amount": -6160,
     "time": "11:21 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to The Servjan Cooperative Urban "
   },
   {
@@ -8572,7 +8572,7 @@
     "date": "2024-08-03T00:00:00.000Z",
     "amount": -2997,
     "time": "10:27 AM",
-    "category": "Transfer",
+    "category": "Income",
     "description": "Paid to Paytm First HDFC Bank Credit "
   },
   {
@@ -8612,7 +8612,7 @@
     "date": "2024-08-01T00:00:00.000Z",
     "amount": -15,
     "time": "7:32 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Rahul"
   },
   {
@@ -8660,7 +8660,7 @@
     "date": "2024-07-24T00:00:00.000Z",
     "amount": -900,
     "time": "11:26 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Nitin Kumar"
   },
   {
@@ -8668,7 +8668,7 @@
     "date": "2024-07-23T00:00:00.000Z",
     "amount": -100,
     "time": "11:28 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sbimops"
   },
   {
@@ -8716,7 +8716,7 @@
     "date": "2024-07-21T00:00:00.000Z",
     "amount": -100,
     "time": "7:55 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Deepanshu"
   },
   {
@@ -8732,7 +8732,7 @@
     "date": "2024-07-21T00:00:00.000Z",
     "amount": -1250,
     "time": "7:38 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Dharmender Pal"
   },
   {
@@ -8812,7 +8812,7 @@
     "date": "2024-07-12T00:00:00.000Z",
     "amount": -180,
     "time": "9:05 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Dharmender Pal"
   },
   {
@@ -8868,7 +8868,7 @@
     "date": "2024-07-06T00:00:00.000Z",
     "amount": -50,
     "time": "8:32 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sunil"
   },
   {
@@ -8924,7 +8924,7 @@
     "date": "2024-07-02T00:00:00.000Z",
     "amount": -19,
     "time": "8:26 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Nitin Kumar"
   },
   {
@@ -8956,7 +8956,7 @@
     "date": "2024-06-30T00:00:00.000Z",
     "amount": -36,
     "time": "7:13 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sushil Kumar Goel"
   },
   {
@@ -8964,7 +8964,7 @@
     "date": "2024-06-30T00:00:00.000Z",
     "amount": -5,
     "time": "7:08 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Kamal Singh"
   },
   {
@@ -9020,7 +9020,7 @@
     "date": "2024-06-26T00:00:00.000Z",
     "amount": -80,
     "time": "8:17 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Deepak"
   },
   {
@@ -9028,7 +9028,7 @@
     "date": "2024-06-25T00:00:00.000Z",
     "amount": -140,
     "time": "10:13 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Nitesh Sharma"
   },
   {
@@ -9076,7 +9076,7 @@
     "date": "2024-06-23T00:00:00.000Z",
     "amount": -40,
     "time": "7:24 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Rahul"
   },
   {
@@ -9100,7 +9100,7 @@
     "date": "2024-06-22T00:00:00.000Z",
     "amount": -36,
     "time": "7:29 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Savita Goel"
   },
   {
@@ -9140,7 +9140,7 @@
     "date": "2024-06-22T00:00:00.000Z",
     "amount": -20,
     "time": "1:02 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sumit Kumar"
   },
   {
@@ -9164,7 +9164,7 @@
     "date": "2024-06-19T00:00:00.000Z",
     "amount": -20,
     "time": "1:31 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sumit Kumar"
   },
   {
@@ -9172,7 +9172,7 @@
     "date": "2024-06-18T00:00:00.000Z",
     "amount": -20,
     "time": "1:37 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sumit Kumar"
   },
   {
@@ -9180,7 +9180,7 @@
     "date": "2024-06-17T00:00:00.000Z",
     "amount": -44,
     "time": "8:45 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sumit Kumar"
   },
   {
@@ -9188,7 +9188,7 @@
     "date": "2024-06-16T00:00:00.000Z",
     "amount": -20,
     "time": "8:10 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Chand Babu"
   },
   {
@@ -9196,7 +9196,7 @@
     "date": "2024-06-15T00:00:00.000Z",
     "amount": -80,
     "time": "8:07 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Pinki"
   },
   {
@@ -9204,7 +9204,7 @@
     "date": "2024-06-15T00:00:00.000Z",
     "amount": -50,
     "time": "11:05 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Ankit Gupta"
   },
   {
@@ -9220,7 +9220,7 @@
     "date": "2024-06-14T00:00:00.000Z",
     "amount": -20,
     "time": "11:32 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Jitendra Kumar"
   },
   {
@@ -9236,7 +9236,7 @@
     "date": "2024-06-13T00:00:00.000Z",
     "amount": -165,
     "time": "10:10 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Nitesh Sharma"
   },
   {
@@ -9276,7 +9276,7 @@
     "date": "2024-06-13T00:00:00.000Z",
     "amount": -10,
     "time": "11:31 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sumit Kumar"
   },
   {
@@ -9284,7 +9284,7 @@
     "date": "2024-06-13T00:00:00.000Z",
     "amount": -10,
     "time": "11:05 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sumit Kumar"
   },
   {
@@ -9292,7 +9292,7 @@
     "date": "2024-06-12T00:00:00.000Z",
     "amount": -3912,
     "time": "10:21 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to The Servjan Cooperative Urban "
   },
   {
@@ -9300,7 +9300,7 @@
     "date": "2024-06-12T00:00:00.000Z",
     "amount": -5240,
     "time": "10:19 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to The Servjan Cooperative Urban "
   },
   {
@@ -9308,7 +9308,7 @@
     "date": "2024-06-12T00:00:00.000Z",
     "amount": -5425,
     "time": "10:17 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to The Servjan Cooperative Urban "
   },
   {
@@ -9316,7 +9316,7 @@
     "date": "2024-06-12T00:00:00.000Z",
     "amount": -6300,
     "time": "10:16 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to The Servjan Cooperative Urban "
   },
   {
@@ -9340,7 +9340,7 @@
     "date": "2024-06-12T00:00:00.000Z",
     "amount": -10,
     "time": "9:21 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sumit Kumar"
   },
   {
@@ -9348,7 +9348,7 @@
     "date": "2024-06-11T00:00:00.000Z",
     "amount": -498,
     "time": "6:39 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Nitin Kumar"
   },
   {
@@ -9372,7 +9372,7 @@
     "date": "2024-05-29T00:00:00.000Z",
     "amount": -3424,
     "time": "11:51 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to The Servjan Cooperative Urban "
   },
   {
@@ -9404,7 +9404,7 @@
     "date": "2024-05-28T00:00:00.000Z",
     "amount": -50,
     "time": "6:52 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Ajad Ali"
   },
   {
@@ -9452,7 +9452,7 @@
     "date": "2024-05-24T00:00:00.000Z",
     "amount": -92,
     "time": "10:37 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Nitin Kumar"
   },
   {
@@ -9476,7 +9476,7 @@
     "date": "2024-05-22T00:00:00.000Z",
     "amount": -4212,
     "time": "8:43 PM",
-    "category": "Transfer",
+    "category": "Income",
     "description": "Paid to Paytm First HDFC Bank Credit "
   },
   {
@@ -9508,7 +9508,7 @@
     "date": "2024-05-22T00:00:00.000Z",
     "amount": -75,
     "time": "12:31 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Manoj Tiwari"
   },
   {
@@ -9524,7 +9524,7 @@
     "date": "2024-05-22T00:00:00.000Z",
     "amount": -30,
     "time": "9:25 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Jarif Cantin"
   },
   {
@@ -9540,7 +9540,7 @@
     "date": "2024-05-21T00:00:00.000Z",
     "amount": -60,
     "time": "11:31 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Abdulrab"
   },
   {
@@ -9548,7 +9548,7 @@
     "date": "2024-05-20T00:00:00.000Z",
     "amount": -140,
     "time": "11:59 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Satynarayangadri"
   },
   {
@@ -9596,7 +9596,7 @@
     "date": "2024-04-27T00:00:00.000Z",
     "amount": -180,
     "time": "9:22 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Anil Sweets Corner"
   },
   {
@@ -9604,7 +9604,7 @@
     "date": "2024-04-27T00:00:00.000Z",
     "amount": -200,
     "time": "7:21 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Pooja"
   },
   {
@@ -9612,7 +9612,7 @@
     "date": "2024-04-27T00:00:00.000Z",
     "amount": -60,
     "time": "7:11 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Navraj"
   },
   {
@@ -9620,7 +9620,7 @@
     "date": "2024-04-27T00:00:00.000Z",
     "amount": -10,
     "time": "7:01 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Parmal Singh"
   },
   {
@@ -9668,7 +9668,7 @@
     "date": "2024-04-26T00:00:00.000Z",
     "amount": -180,
     "time": "7:56 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Jio"
   },
   {
@@ -9676,7 +9676,7 @@
     "date": "2024-04-26T00:00:00.000Z",
     "amount": -100,
     "time": "7:52 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Nitin Kumar"
   },
   {
@@ -9740,7 +9740,7 @@
     "date": "2024-04-23T00:00:00.000Z",
     "amount": -100,
     "time": "10:31 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sunil Kumar"
   },
   {
@@ -9748,7 +9748,7 @@
     "date": "2024-04-23T00:00:00.000Z",
     "amount": -140,
     "time": "8:17 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to PhonePeMerchant"
   },
   {
@@ -9868,7 +9868,7 @@
     "date": "2024-03-26T00:00:00.000Z",
     "amount": -100,
     "time": "12:00 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sunil Kumar"
   },
   {
@@ -9884,7 +9884,7 @@
     "date": "2024-03-24T00:00:00.000Z",
     "amount": -15,
     "time": "7:36 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sanjay"
   },
   {
@@ -9924,7 +9924,7 @@
     "date": "2024-03-20T00:00:00.000Z",
     "amount": -20,
     "time": "10:14 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sunil Kumar"
   },
   {
@@ -9932,7 +9932,7 @@
     "date": "2024-03-20T00:00:00.000Z",
     "amount": -48,
     "time": "5:37 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Nitin Kumar"
   },
   {
@@ -9980,7 +9980,7 @@
     "date": "2024-03-18T00:00:00.000Z",
     "amount": -40,
     "time": "12:21 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sunil Lassi Bhanda"
   },
   {
@@ -10020,7 +10020,7 @@
     "date": "2024-03-17T00:00:00.000Z",
     "amount": -30,
     "time": "6:00 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sanjay"
   },
   {
@@ -10036,7 +10036,7 @@
     "date": "2024-03-16T00:00:00.000Z",
     "amount": -90,
     "time": "7:40 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Navraj"
   },
   {
@@ -10076,7 +10076,7 @@
     "date": "2024-03-14T00:00:00.000Z",
     "amount": -15,
     "time": "7:50 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Ram Kishor"
   },
   {
@@ -10084,7 +10084,7 @@
     "date": "2024-03-13T00:00:00.000Z",
     "amount": -120,
     "time": "2:54 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Daily Treats SHIV VIHAR"
   },
   {
@@ -10092,7 +10092,7 @@
     "date": "2024-03-13T00:00:00.000Z",
     "amount": -30,
     "time": "11:28 AM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Anil Sweets Corner"
   },
   {
@@ -10148,7 +10148,7 @@
     "date": "2024-03-10T00:00:00.000Z",
     "amount": -20,
     "time": "10:14 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sunil Kumar"
   },
   {
@@ -10156,7 +10156,7 @@
     "date": "2024-03-10T00:00:00.000Z",
     "amount": -60,
     "time": "8:35 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Global Industries"
   },
   {
@@ -10188,7 +10188,7 @@
     "date": "2024-02-28T00:00:00.000Z",
     "amount": -55,
     "time": "10:22 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sandeep Kumar"
   },
   {
@@ -10196,7 +10196,7 @@
     "date": "2024-02-28T00:00:00.000Z",
     "amount": -400,
     "time": "6:45 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Mittal Cosmetics"
   },
   {
@@ -10220,7 +10220,7 @@
     "date": "2024-02-26T00:00:00.000Z",
     "amount": -480,
     "time": "8:58 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Anil Sweets Corner"
   },
   {
@@ -10236,7 +10236,7 @@
     "date": "2024-02-26T00:00:00.000Z",
     "amount": -70,
     "time": "6:52 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Global Industries"
   },
   {
@@ -10252,7 +10252,7 @@
     "date": "2024-02-26T00:00:00.000Z",
     "amount": -20,
     "time": "1:12 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Chandni Begam"
   },
   {
@@ -10300,7 +10300,7 @@
     "date": "2024-02-24T00:00:00.000Z",
     "amount": -100,
     "time": "8:37 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Prateek Kumar Yadav So "
   },
   {
@@ -10364,7 +10364,7 @@
     "date": "2024-02-20T00:00:00.000Z",
     "amount": -60,
     "time": "6:11 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Pinki"
   },
   {
@@ -10372,7 +10372,7 @@
     "date": "2024-02-20T00:00:00.000Z",
     "amount": -1,
     "time": "4:07 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to DEEPANSHU"
   },
   {
@@ -10380,7 +10380,7 @@
     "date": "2024-02-19T00:00:00.000Z",
     "amount": -1736,
     "time": "3:07 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Krishna Cloth House"
   },
   {
@@ -10404,7 +10404,7 @@
     "date": "2024-02-18T00:00:00.000Z",
     "amount": -10,
     "time": "7:24 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Sunil Kumar"
   },
   {
@@ -10452,7 +10452,7 @@
     "date": "2024-02-16T00:00:00.000Z",
     "amount": -70,
     "time": "8:38 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Kapoor Service Staion"
   },
   {
@@ -10476,7 +10476,7 @@
     "date": "2024-02-15T00:00:00.000Z",
     "amount": -950,
     "time": "8:18 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Gopal Singh"
   },
   {
@@ -10500,7 +10500,7 @@
     "date": "2024-02-14T00:00:00.000Z",
     "amount": -345,
     "time": "9:14 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Nitesh Sharma"
   },
   {
@@ -10508,7 +10508,7 @@
     "date": "2024-02-14T00:00:00.000Z",
     "amount": -30,
     "time": "6:37 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Anil Sweets Corner"
   },
   {
@@ -10532,7 +10532,7 @@
     "date": "2024-02-11T00:00:00.000Z",
     "amount": -20,
     "time": "2:27 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Nisarali"
   },
   {
@@ -10540,7 +10540,7 @@
     "date": "2024-02-11T00:00:00.000Z",
     "amount": -250,
     "time": "2:24 PM",
-    "category": "Transfer",
+    "category": null,
     "description": "Paid to Anil Sweets Corner"
   },
   {
