@@ -1,63 +1,66 @@
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom'
+import { useContext } from 'react'
+import { AuthContext } from '../../context/AuthContext'
+import generatePDFReport from '../../utils/generatePDFReport'
 
-const Header = ({data , financialYear}) => {
-    const navigate = useNavigate();
-    const handleExportCSV = () => {
-        const totalIncome = data.totalIncome || 0;
-        const totalExpense = data.totalExpense || 0;
-        const savings = data.savings || 0;
+const Header = ({ financialYear, monthlySummary, overallSummary }) => {
 
-        let csvContent = "Financial Summary\n";
-        csvContent += `Total Income,${totalIncome}\n`;
-        csvContent += `Total Expense,${totalExpense}\n`;
-        csvContent += `Savings,${savings}\n\n`;
+    const navigate = useNavigate()
+    const { user, logout } = useContext(AuthContext)
 
-        csvContent += "Category Breakdown\n";
-        csvContent += "Category,Amount\n";
-
-        Object.entries(data.categoryTotals || {}).forEach(
-            ([category, amount]) => {
-                csvContent += `${category},${amount}\n`;
-            }
-        );
-
-        const blob = new Blob([csvContent], { type: "text/csv;charset=utf-8;" });
-
-        const link = document.createElement("a");
-        link.href = URL.createObjectURL(blob);
-        link.download = "financial-summary.csv";
-        link.click();
-    };
-
+    const handleLogout = () => {
+        logout()                      // clear localStorage + context
+        navigate("/", { replace: true })  // redirect to home safely
+    }
 
     return (
         <div className="flex justify-between items-center mb-10">
+
             <div>
                 <h1 className="text-4xl font-bold text-gray-800">
-                    Welcome back, Deepanshu
+                    Welcome back, {user?.name || "User"}
                 </h1>
                 <p className="text-gray-500">
                     Here’s your financial overview
                 </p>
                 <p className="text-gray-500 font-semibold text-sm">
-                    { financialYear || ""} 
+                    {financialYear || ""}
                 </p>
             </div>
 
             <div className="flex gap-3">
+
+                {/* Download PDF */}
                 <button
-                    onClick={handleExportCSV}
+                    onClick={() =>
+                        generatePDFReport({
+                            overallSummary,
+                            monthlySummary,
+                        })
+                    }
                     className="bg-indigo-600 text-white px-4 py-2 rounded-lg shadow hover:bg-indigo-700 transition"
                 >
-                    Export CSV
+                    📄 Download Report
                 </button>
 
+                {/* Upload Again */}
                 <button
                     onClick={() => navigate("/upload")}
                     className="bg-white border px-4 py-2 rounded-lg shadow hover:bg-gray-100 transition"
                 >
                     Upload Another File
                 </button>
+
+                {/* Logout */}
+                {user && (
+                    <button
+                        onClick={handleLogout}
+                        className="px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600 transition"
+                    >
+                        Logout
+                    </button>
+                )}
+
             </div>
 
         </div>

@@ -13,6 +13,7 @@ const UploadPage = () => {
   const [error, setError] = useState(" ")
   const navigate = useNavigate();
   const MAX_FILE_SIZE = 5 * 1024 * 1024; // 5MB
+  
 
    // VALIDATE FILE
    const validateFile = (selectedFile) => {
@@ -52,6 +53,8 @@ const UploadPage = () => {
       );
       // console.log("Backend Summary - ",response.data);
       setSummary(response.data)
+
+      localStorage.setItem("summary", JSON.stringify(response.data));
       navigate('/dashboard', { state: { summary: response.data } })
 
       // alert("File uploaded successfully");
@@ -63,6 +66,7 @@ const UploadPage = () => {
       setLoading(false);
     }
   };
+
 
   return (
     <div className="min-h-screen bg-gray-50 flex items-center justify-center px-4">

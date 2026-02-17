@@ -20,8 +20,10 @@ import MonthDrillDown from "../components/dashboard/MonthDrillDown";
 
 function Dashboard() {
   const location = useLocation();
-  const summary = location.state?.summary;
+const storedSummary = JSON.parse(localStorage.getItem("summary"));
+const summary = location.state?.summary || storedSummary;
   const [selectedMonth, setSelectedMonth] = useState(null);
+  
 
 
   if (!summary) {
@@ -102,7 +104,9 @@ function Dashboard() {
       <div className="max-w-8xl mx-auto">
 
         {/* Header */}
-        <Header data={activeSummary} financialYear={overallSummary?.financialYear} />
+        <Header financialYear={overallSummary?.financialYear} overallSummary={overallSummary} monthlySummary={monthlySummary}/>
+        
+ 
 
         {/* Summary Cards */}
         <SummaryCards data={activeSummary} />

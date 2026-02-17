@@ -44,7 +44,7 @@ router.post("/", upload.single("file"), async (req, res) => {
     console.log(" After pdfParse");
     const { paymentsData, pdfDate } = extractTransactions(pdfData.text);
 
-    fs.writeFileSync(`${req.file.originalname}.txt`, pdfData.text, "utf-8");
+    // fs.writeFileSync(`${req.file.originalname}.txt`, pdfData.text, "utf-8");
     // fs.writeFileSync(
     //   "write-transaction-1-ptm.txt",
     //   transactions.join("\n"),
@@ -53,8 +53,8 @@ router.post("/", upload.single("file"), async (req, res) => {
     // );
     // const  { startingDate, endingDate } =parseDateRange(financialYear);
 
-    fs.writeFileSync("transactions.json", JSON.stringify(paymentsData, null, 2),
-      "utf-8")
+    // fs.writeFileSync("transactions.json", JSON.stringify(paymentsData, null, 2),
+    //   "utf-8")
   
 
     let overallSummary = generateSummary(paymentsData) //external function
