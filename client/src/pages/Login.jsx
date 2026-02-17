@@ -15,12 +15,20 @@ const Login = () => {
   });
 
   const handleSubmit = async (e) => {
-    e.preventDefault();
+  e.preventDefault();
 
-    const res = await axios.post("/auth/login", form);
-    login(res.data);
+  const res = await axios.post("/auth/login", form);
+  login(res.data);
+
+  const storedSummary = JSON.parse(localStorage.getItem("summary"));
+
+  if (storedSummary) {
+    navigate("/dashboard");
+  } else {
     navigate("/upload");
-  };
+  }
+};
+
 
 // useEffect(() => {
 //   if (user && window.location.pathname === "/login") {

@@ -10,9 +10,9 @@ const groupByMonth = require("../utils/groupByMonth");
 // const { parseDateRange } = require("../utils/dateParser");
 
 const storage = multer.diskStorage({
-  destination: (req, file, cb) => {
-    cb(null, path.join(__dirname, "../uploads"));
-  },
+  // destination: (req, file, cb) => {
+  //   cb(null, path.join(__dirname, "../uploads"));     //ye jab hum upload pdf ko save krenge tb use hoga
+  // },
   filename: (req, file, cb) => {
     cb(null, Date.now() + path.extname(file.originalname));
   },
@@ -58,7 +58,7 @@ router.post("/", upload.single("file"), async (req, res) => {
   
 
     let overallSummary = generateSummary(paymentsData) //external function
-    overallSummary={...pdfDate, ...overallSummary}
+    overallSummary={...pdfDate, ...overallSummary}  
 
     //monthly summary
       const monthlyGroupedTransactions = groupByMonth(paymentsData);

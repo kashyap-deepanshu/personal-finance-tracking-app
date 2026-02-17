@@ -19,10 +19,11 @@ export const AuthProvider = ({ children }) => {
     setUser(data);
   };
 
-  const logout = () => {
-    localStorage.removeItem("user");
-    setUser(null);
-  };
+const logout = () => {
+  localStorage.removeItem("user");
+  localStorage.removeItem("summary"); // 🔥 important
+  setUser(null);
+};
 
   return (
     <AuthContext.Provider value={{ user, login, logout, loading }}>
