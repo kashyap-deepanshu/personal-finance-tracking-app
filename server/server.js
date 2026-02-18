@@ -3,37 +3,39 @@ const uploadRoutes = require("./routes/uploadRoutes");
 require("dotenv").config();
 
 const cors = require("cors");
-const router = express.Router();
 const mongoose = require("mongoose");
-
-
 
 const app = express();
 const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
-});
 
-const { protect } = require("./middleware/authMiddleware");
-
-router.get("/dashboard", protect, (req, res) => {
-  res.json({ message: "Welcome", user: req.user });
-});
-
+// Middleware
 app.use(cors({
-  // origin: "http://localhost:5173",
-  origin:"*",
+  origin: "*", // later frontend URL specific karenge
 }));
 
 app.use(express.json());
 
-// MongoDB connection
-mongoose.connect(process.env.MONGO_URI)
-  .then(() => console.log("MongoDB Connected"))
-  .catch(err => console.log(err));
+// Health Route (Recommended)
+app.get("/", (req, res) => {
+  res.json({ status: "Finance Backend Running 🚀" });
+});
 
 // Routes
 app.use("/api/auth", require("./routes/authRoutes"));
+app.use("/api/upload", uploadRoutes);  // consistency ke liye change
 
-app.use("/upload", uploadRoutes);
+// 404 Handler (Recommended)
+app.use((req, res) => {
+  res.status(404).json({ message: "Route not found" });
+});
 
+// MongoDB connection
+mongoose.connect(process.env.MONGO_URI)
+  .then(() => {
+    console.log("MongoDB Connected");
+
+    app.listen(PORT, () => {
+      console.log(`Server running on port ${PORT}`);
+    });
+  })
+  .catch(err => console.log(err));

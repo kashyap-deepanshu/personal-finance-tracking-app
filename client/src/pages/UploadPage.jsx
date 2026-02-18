@@ -2,7 +2,7 @@ import UploadBox from "../components/upload/UploadBox";
 import PrivacyNote from "../components/upload/PrivacyNote";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import axios from "axios";
+import axios from "../utils/axiosInstance";
 
 
 
@@ -13,24 +13,24 @@ const UploadPage = () => {
   const [error, setError] = useState(" ")
   const navigate = useNavigate();
   const MAX_FILE_SIZE = 5 * 1024 * 1024; // 5MB
-  
 
-   // VALIDATE FILE
-   const validateFile = (selectedFile) => {
-  if (!selectedFile) return false;
 
-  if (selectedFile.type !== "application/pdf") {
-    setError("Only PDF files are allowed.");
-    return false;
-  }
+  // VALIDATE FILE
+  const validateFile = (selectedFile) => {
+    if (!selectedFile) return false;
 
-  if (selectedFile.size > MAX_FILE_SIZE) {
-    setError("File size must be less than 5MB.");
-    return false;
-  }
+    if (selectedFile.type !== "application/pdf") {
+      setError("Only PDF files are allowed.");
+      return false;
+    }
 
-  return true;
-};
+    if (selectedFile.size > MAX_FILE_SIZE) {
+      setError("File size must be less than 5MB.");
+      return false;
+    }
+
+    return true;
+  };
 
 
   const handleAnalyze = async () => {
@@ -39,7 +39,7 @@ const UploadPage = () => {
       return;
     }
 
-   
+
 
     const formData = new FormData();
     formData.append("file", file); //  fieldname MUST be "file"
@@ -48,7 +48,7 @@ const UploadPage = () => {
       setLoading(true);
       setError("")
       const response = await axios.post(
-        "http://localhost:5000/upload",
+        "/api/upload",
         formData
       );
       // console.log("Backend Summary - ",response.data);
