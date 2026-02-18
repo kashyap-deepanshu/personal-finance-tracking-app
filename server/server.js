@@ -21,8 +21,10 @@ router.get("/dashboard", protect, (req, res) => {
 });
 
 app.use(cors({
-  origin: "http://localhost:5173",
+  // origin: "http://localhost:5173",
+  origin:"*",
 }));
+
 app.use(express.json());
 
 // MongoDB connection
