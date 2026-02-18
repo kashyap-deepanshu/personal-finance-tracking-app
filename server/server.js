@@ -10,8 +10,14 @@ const PORT = process.env.PORT || 5000;
 
 // Middleware
 app.use(cors({
-  origin: "*", // later frontend URL specific karenge
+  origin: [
+    "http://localhost:5173",
+    "https://personal-finance-tracking-app.vercel.app"
+  ],
+  credentials: true,
 }));
+
+
 
 app.use(express.json());
 

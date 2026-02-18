@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 
 const Login = () => {
-  const { login ,user} = useContext(AuthContext);
+  const { login ,user} = useContext(AuthContext); 
   const navigate = useNavigate();
 
   const [form, setForm] = useState({
@@ -17,7 +17,7 @@ const Login = () => {
   const handleSubmit = async (e) => {
   e.preventDefault();
 
-  const res = await axios.post("/auth/login", form);
+const res = await axios.post("/api/auth/login", form);
   login(res.data);
 
   const storedSummary = JSON.parse(localStorage.getItem("summary"));

@@ -21,7 +21,7 @@
     e.preventDefault();
 
     try {
-      await axios.post("/auth/register", form);
+await axios.post("/api/auth/register", form);
 
       // No login here
       // No localStorage save
@@ -111,9 +111,9 @@
 
         {/* Divider */}
         <div className="flex items-center my-4">
-          <div className="flex-grow h-px bg-gray-200"></div>
+          <div className="grow h-px bg-gray-200"></div>
           <span className="px-3 text-gray-400 text-sm">OR</span>
-          <div className="flex-grow h-px bg-gray-200"></div>
+          <div className="grow h-px bg-gray-200"></div>
         </div>
 
         {/* Login Link */}
