@@ -103,7 +103,9 @@ function Dashboard() {
         <SummaryCards data={activeSummary} />
 
         {/* Section Header + Toggle + Filter */}
-        <div className="sm:flex-row flex-col justify-between items-center mt-10 mb-6">
+        <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mt-10 mb-6">
+
+          {/* Heading */}
           <h2 className="text-2xl font-semibold text-gray-800">
             {viewMode === "insights" && "Financial Insights & Analytics"}
             {viewMode === "category" && "Expenses by Category"}
@@ -111,67 +113,23 @@ function Dashboard() {
             {viewMode === "monthly" && "Monthly Expense Comparison"}
           </h2>
 
-
-          <div className="flex gap-6 items-center">
+          {/* Right Section */}
+          <div className="flex flex-col sm:flex-row gap-4 sm:items-center w-full md:w-auto">
 
             {/* Toggle Buttons */}
-            <div className="inline-flex items-center bg-white/60 backdrop-blur-md rounded-full p-1 shadow-lg border border-gray-200">
-
-              {/* Insights */}
-              <button
-                onClick={() => setViewMode("insights")}
-                className={`px-5 py-2 rounded-full text-sm font-semibold transition-all duration-300 ${viewMode === "insights"
-                  ? "bg-linear-to-r from-indigo-500 to-purple-600 text-white shadow-md scale-105"
-                  : "text-gray-500 hover:text-indigo-600"
-                  }`}
-              >
-                🧠 Insights
-              </button>
-
-              {/* Category */}
-              <button
-                onClick={() => setViewMode("category")}
-                className={`px-5 py-2 rounded-full text-sm font-semibold transition-all duration-300 ${viewMode === "category"
-                  ? "bg-linear-to-r from-indigo-500 to-purple-600 text-white shadow-md scale-105"
-                  : "text-gray-500 hover:text-indigo-600"
-                  }`}
-              >
-                📁 Category
-              </button>
-
-              {/* Visual */}
-              <button
-                onClick={() => setViewMode("visual")}
-                className={`px-5 py-2 rounded-full text-sm font-semibold transition-all duration-300 ${viewMode === "visual"
-                  ? "bg-linear-to-r from-emerald-400 to-teal-500 text-white shadow-md scale-105"
-                  : "text-gray-500 hover:text-emerald-600"
-                  }`}
-              >
-                📊 Visual
-              </button>
-
-              {/* Monthly */}
-              <button
-                onClick={() => setViewMode("monthly")}
-                className={`px-5 py-2 rounded-full text-sm font-semibold transition-all duration-300 ${viewMode === "monthly"
-                  ? "bg-linear-to-r from-rose-400 to-pink-500 text-white shadow-md scale-105"
-                  : "text-gray-500 hover:text-rose-600"
-                  }`}
-              >
-                📈 Monthly
-              </button>
-
+            <div className="inline-flex flex-wrap items-center bg-white/60 backdrop-blur-md rounded-full p-1 shadow-lg border border-gray-200">
+              ...
             </div>
 
-            {/* Filter Component */}
+            {/* Filter */}
             <MonthYearFilter
               monthlySummary={monthlySummary}
               onApply={handleFilter}
             />
 
           </div>
-        </div>
 
+        </div>
         {/* Conditional Section */}
 
         {viewMode === "insights" && (
