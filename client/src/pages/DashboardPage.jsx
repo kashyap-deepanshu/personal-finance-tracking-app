@@ -15,16 +15,11 @@ import buildCategoryTrendDataset from "../utils/buildCategoryTrendDataset";
 import StackedCategoryTrendChart from "../components/dashboard/StackedCategoryTrendChart";
 import MonthDrillDown from "../components/dashboard/MonthDrillDown";
 
-
-
-
 function Dashboard() {
   const location = useLocation();
-const storedSummary = JSON.parse(localStorage.getItem("summary"));
-const summary = location.state?.summary || storedSummary;
+  const storedSummary = JSON.parse(localStorage.getItem("summary"));
+  const summary = location.state?.summary || storedSummary;
   const [selectedMonth, setSelectedMonth] = useState(null);
-  
-
 
   if (!summary) {
     return (
@@ -45,7 +40,6 @@ const summary = location.state?.summary || storedSummary;
 
   const [activeSummary, setActiveSummary] = useState(overallSummary || {});
   const [viewMode, setViewMode] = useState("insights");
-
 
   // FILTER FUNCTION
 
@@ -98,27 +92,18 @@ const summary = location.state?.summary || storedSummary;
     })
   );
 
-
   return (
     <div className="min-h-screen bg-linear-to-br from-indigo-50 via-white to-blue-50 p-8 animate-fadeIn">
       <div className="max-w-8xl mx-auto">
 
         {/* Header */}
-        <Header financialYear={overallSummary?.financialYear} overallSummary={overallSummary} monthlySummary={monthlySummary}/>
-        
- 
+        <Header financialYear={overallSummary?.financialYear} overallSummary={overallSummary} monthlySummary={monthlySummary} />
 
         {/* Summary Cards */}
         <SummaryCards data={activeSummary} />
 
-
-
-
-
-
-
         {/* Section Header + Toggle + Filter */}
-        <div className="flex justify-between items-center mt-10 mb-6">
+        <div className="sm:flex-row flex-col justify-between items-center mt-10 mb-6">
           <h2 className="text-2xl font-semibold text-gray-800">
             {viewMode === "insights" && "Financial Insights & Analytics"}
             {viewMode === "category" && "Expenses by Category"}
@@ -178,13 +163,11 @@ const summary = location.state?.summary || storedSummary;
 
             </div>
 
-
             {/* Filter Component */}
             <MonthYearFilter
               monthlySummary={monthlySummary}
               onApply={handleFilter}
             />
-
 
           </div>
         </div>
@@ -224,17 +207,12 @@ const summary = location.state?.summary || storedSummary;
 
         )}
 
-        {viewMode === "monthly"  && selectedMonth && (
+        {viewMode === "monthly" && selectedMonth && (
           <MonthDrillDown
             month={selectedMonth}
             data={monthlySummary[selectedMonth]}
           />
         )}
-
-
-
-
-
       </div>
     </div>
   );

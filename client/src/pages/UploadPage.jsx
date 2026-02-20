@@ -72,7 +72,7 @@ const UploadPage = () => {
     <div className="min-h-screen bg-gray-50 flex items-center justify-center px-4">
       <div className="bg-white rounded-xl shadow-md p-6 w-full max-w-lg">
         <h2 className="text-2xl font-semibold text-center text-gray-800">
-          Upload Bank Statement
+          Upload Paytm Bank Statement
         </h2>
 
         <UploadBox onFileSelect={setFile} file={file} setError={setError} validateFile={validateFile} /> {/* yha hmne setFile ko onFileSelct ke name se child mai pass kra hai */}

@@ -17,7 +17,7 @@ const Header = ({ financialYear, monthlySummary, overallSummary }) => {
         <div className="flex justify-between items-center mb-10">
 
             <div>
-                <h1 className="text-4xl font-bold text-gray-800">
+                <h1 className="md:text-4xl text-2xl font-bold text-gray-800">
                     Welcome back, {user?.name || "User"}
                 </h1>
                 <p className="text-gray-500">
@@ -28,7 +28,7 @@ const Header = ({ financialYear, monthlySummary, overallSummary }) => {
                 </p>
             </div>
 
-            <div className="flex gap-3">
+            <div className="flex-col sm:flex-row  gap-3">
 
                 {/* Download PDF */}
                 <button
