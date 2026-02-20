@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import {
     PieChart,
     Pie,
@@ -21,19 +21,6 @@ const COLORS = [
 
 function CategoryPieChart({ data = [] }) {
     const [isDonut, setIsDonut] = useState(true);
-    const [isMobile, setIsMobile] = useState(false);
-
-    // Detect screen size (md breakpoint < 768px)
-    useEffect(() => {
-        const handleResize = () => {
-            setIsMobile(window.innerWidth < 768);
-        };
-
-        handleResize(); // initial check
-        window.addEventListener("resize", handleResize);
-
-        return () => window.removeEventListener("resize", handleResize);
-    }, []);
 
     const total = data.reduce((sum, item) => sum + item.value, 0);
 
@@ -68,78 +55,68 @@ function CategoryPieChart({ data = [] }) {
                 </button>
             </div>
 
-            <ResponsiveContainer width="100%" height={450}>
-                <PieChart>
-                    <Pie
-                        data={sortedData}
-                        dataKey="value"
-                        nameKey="name"
-                        innerRadius={
-                            isDonut ? (isMobile ? 60 : 80) : 0
-                        }
-                        outerRadius={isMobile ? 110 : 140}
-                        labelLine={isMobile}
-                        label ={isMobile}
-                    >
-                        {sortedData.map((entry, index) => (
-                            <Cell
-                                key={index}
-                                fill={
-                                    entry.name === "Others"
-                                        ? "#9ca3af"
-                                        : COLORS[index % COLORS.length]
-                                }
+            {/* Chart Wrapper */}
+            <div className="w-full overflow-x-auto md:overflow-visible no-scrollbar">
+                <div className="min-w-150 md:min-w-0">
+                    <ResponsiveContainer width="100%" height={450}>
+                        <PieChart>
+                            <Pie
+                                data={sortedData}
+                                dataKey="value"
+                                nameKey="name"
+                                innerRadius={isDonut ? 80 : 0}
+                                outerRadius={140}
+                                labelLine={true}
+                                label
+                            >
+                                {sortedData.map((entry, index) => (
+                                    <Cell
+                                        key={index}
+                                        fill={
+                                            entry.name === "Others"
+                                                ? "#9ca3af"
+                                                : COLORS[index % COLORS.length]
+                                        }
+                                    />
+                                ))}
+                            </Pie>
+
+                            {isDonut && (
+                                <text
+                                    x="50%"
+                                    y="50%"
+                                    textAnchor="middle"
+                                    dominantBaseline="middle"
+                                    className="fill-gray-800"
+                                >
+                                    <tspan x="50%" dy="-4" className="text-sm fill-gray-400">
+                                        Total
+                                    </tspan>
+                                    <tspan x="50%" dy="20" className="text-xl font-bold">
+                                        ₹{Math.round(total).toLocaleString()}
+                                    </tspan>
+                                </text>
+                            )}
+
+                            <Tooltip
+                                formatter={(value, name) => {
+                                    const percent =
+                                        total > 0
+                                            ? ((value / total) * 100).toFixed(1)
+                                            : 0;
+                                    return [`₹${value.toLocaleString()} (${percent}%)`, name];
+                                }}
                             />
-                        ))}
-                    </Pie>
 
-                    {/* Center text (donut only) */}
-                    {isDonut && (
-                        <text
-                            x="50%"
-                            y="50%"
-                            textAnchor="middle"
-                            dominantBaseline="middle"
-                            className="fill-gray-800"
-                        >
-                            <tspan
-                                x="50%"
-                                dy="-4"
-                                className="text-sm fill-gray-400"
-                            >
-                                Total
-                            </tspan>
-                            <tspan
-                                x="50%"
-                                dy="20"
-                                className="text-xl font-bold"
-                            >
-                                ₹{Math.round(total).toLocaleString()}
-                            </tspan>
-                        </text>
-                    )}
-
-                    {/* Tooltip */}
-                    <Tooltip
-                        formatter={(value, name) => {
-                            const percent =
-                                total > 0
-                                    ? ((value / total) * 100).toFixed(1)
-                                    : 0;
-                            return [
-                                `₹${value.toLocaleString()} (${percent}%)`,
-                                name,
-                            ];
-                        }}
-                    />
-
-                    <Legend
-                        verticalAlign="bottom"
-                        iconType="circle"
-                        wrapperStyle={{ fontSize: "12px" }}
-                    />
-                </PieChart>
-            </ResponsiveContainer>
+                            <Legend
+                                verticalAlign="bottom"
+                                iconType="circle"
+                                wrapperStyle={{ fontSize: "12px" }}
+                            />
+                        </PieChart>
+                    </ResponsiveContainer>
+                </div>
+            </div>
         </>
     );
 }
