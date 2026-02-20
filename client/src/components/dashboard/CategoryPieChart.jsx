@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import {
     PieChart,
     Pie,
@@ -21,6 +21,19 @@ const COLORS = [
 
 function CategoryPieChart({ data = [] }) {
     const [isDonut, setIsDonut] = useState(true);
+    const [isMobile, setIsMobile] = useState(false);
+
+    // Detect screen size (md breakpoint < 768px)
+    useEffect(() => {
+        const handleResize = () => {
+            setIsMobile(window.innerWidth < 768);
+        };
+
+        handleResize(); // initial check
+        window.addEventListener("resize", handleResize);
+
+        return () => window.removeEventListener("resize", handleResize);
+    }, []);
 
     const total = data.reduce((sum, item) => sum + item.value, 0);
 
@@ -61,8 +74,10 @@ function CategoryPieChart({ data = [] }) {
                         data={sortedData}
                         dataKey="value"
                         nameKey="name"
-                        innerRadius={isDonut ? 80 : 0}
-                        outerRadius={140}
+                        innerRadius={
+                            isDonut ? (isMobile ? 60 : 80) : 0
+                        }
+                        outerRadius={isMobile ? 110 : 140}
                         labelLine={true}
                         label
                     >
@@ -87,21 +102,34 @@ function CategoryPieChart({ data = [] }) {
                             dominantBaseline="middle"
                             className="fill-gray-800"
                         >
-                            <tspan x="50%" dy="-4" className="text-sm fill-gray-400">
+                            <tspan
+                                x="50%"
+                                dy="-4"
+                                className="text-sm fill-gray-400"
+                            >
                                 Total
                             </tspan>
-                            <tspan x="50%" dy="20" className="text-xl font-bold">
+                            <tspan
+                                x="50%"
+                                dy="20"
+                                className="text-xl font-bold"
+                            >
                                 ₹{Math.round(total).toLocaleString()}
                             </tspan>
                         </text>
                     )}
 
-                    {/* Custom Tooltip */}
+                    {/* Tooltip */}
                     <Tooltip
                         formatter={(value, name) => {
                             const percent =
-                                total > 0 ? ((value / total) * 100).toFixed(1) : 0;
-                            return [`₹${value.toLocaleString()} (${percent}%)`, name];
+                                total > 0
+                                    ? ((value / total) * 100).toFixed(1)
+                                    : 0;
+                            return [
+                                `₹${value.toLocaleString()} (${percent}%)`,
+                                name,
+                            ];
                         }}
                     />
 
