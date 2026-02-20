@@ -78,8 +78,8 @@ function CategoryPieChart({ data = [] }) {
                             isDonut ? (isMobile ? 60 : 80) : 0
                         }
                         outerRadius={isMobile ? 110 : 140}
-                        labelLine={true}
-                        label
+                        labelLine={isMobile}
+                        label ={isMobile}
                     >
                         {sortedData.map((entry, index) => (
                             <Cell
